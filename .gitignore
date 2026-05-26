@@ -1,0 +1,19 @@
+# 영상 파일
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# 이미지 파일 (썸네일 등)
+*.png
+*.jpg
+*.jpeg
+
+# Obsidian
+.obsidian/
+
+# Claude
+.claude/
+
+# 기타
+.sixth/
