@@ -16,17 +16,19 @@ Cravveo 100일 프로젝트의 옵시디언 시작 문서입니다.
 6. [[2일차/2026-05-25_Day002_Work_Order|Day 002 작업지시서]]
 7. [[Daily_Log/2026-05-25_Day002_Log|Day 002 작업 로그]]
 8. [[2일차/Day002_YouTube_Upload|Day 002 유튜브 업로드 문서]]
-9. [[Gemini_BGM_Prompts|Gemini BGM 프롬프트]]
-10. [[YouTube_Channel_Setup_Cravveo_Company|YouTube 채널 생성 설정]]
-11. [[Agent_Handover_Protocol|에이전트 인계 프로토콜]]
+9. [[3일차/2026-05-26_Day003_Work_Order|Day 003 작업지시서]]
+10. [[Daily_Log/2026-05-26_Day003_Log|Day 003 작업 로그]]
+11. [[Gemini_BGM_Prompts|Gemini BGM 프롬프트]]
+12. [[YouTube_Channel_Setup_Cravveo_Company|YouTube 채널 생성 설정]]
+13. [[Agent_Handover_Protocol|에이전트 인계 프로토콜]]
 
 ---
 
 ## 현재 상태
 
-- 현재 Day: Day 002
-- 오늘 목표: Python 가상환경 생성
-- 완료 상태: Day 002 착수 준비 완료
+- 현재 Day: Day 003
+- 오늘 목표: Git 저장소 초기화 + GitHub push + Obsidian 연결
+- 완료 상태: Day 003 진행 중
 
 ---
 

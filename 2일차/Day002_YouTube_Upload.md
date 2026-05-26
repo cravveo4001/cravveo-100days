@@ -217,4 +217,4 @@ Style: soft ambient electronic, gentle piano, warm pad, no vocals, 70-82 BPM.
 
 ---
 
-[[2026-05-25_Day002_Work_Order]] | [[../Daily_Log/2026-05-25_Day002_Log]]
+[[2026-05-25_Day002_Work_Order|Day 002 작업지시서]] | [[../Daily_Log/2026-05-25_Day002_Log|Day 002 로그]] | [[../1일차/Day001_YouTube_Upload|← Day 001 유튜브]] | [[../Cravveo_100Day_Master_Guide]]

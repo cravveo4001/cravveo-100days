@@ -239,4 +239,4 @@ Python + Git
 
 ---
 
-[[../Daily_Log/2026-05-23_Day001_Log]] | [[../2026-05-23_Day001_Work_Order]] | [[../YouTube_Channel_Setup_Cravveo_Company]]
+[[../2026-05-23_Day001_Work_Order|Day 001 작업지시서]] | [[../Daily_Log/2026-05-23_Day001_Log|Day 001 로그]] | [[../YouTube_Channel_Setup_Cravveo_Company]] | [[../Cravveo_100Day_Master_Guide]]

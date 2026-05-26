@@ -122,4 +122,4 @@ deactivate
 
 ---
 
-[[../Cravveo_100Day_Master_Guide]] | [[../Daily_Log/2026-05-25_Day002_Log]]
+[[../Cravveo_100Day_Master_Guide]] | [[../Daily_Log/2026-05-25_Day002_Log|Day 002 로그]] | [[../2일차/Day002_YouTube_Upload|Day 002 유튜브 문서]] | [[../2026-05-23_Day001_Work_Order|← Day 001]] | [[../3일차/2026-05-26_Day003_Work_Order|Day 003 →]]

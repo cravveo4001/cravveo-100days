@@ -140,6 +140,16 @@ git status
 
 ---
 
+### Step 9 — Obsidian에서 Vault 열기 | Open Vault in Obsidian
+
+1. Obsidian 실행
+2. `폴더를 Vault로 열기` 선택
+3. `/home/c/finetuning-project` 선택
+4. 좌측 파일 트리에서 `README.md` 클릭
+5. 링크가 연결되는지 확인 (`[[...]]` 클릭 시 해당 문서로 이동)
+
+---
+
 ## 📅 다음 단계 | Next Step
 
 **Day 004**: Ollama를 설치하고 로컬 LLM을 처음 실행합니다.
@@ -147,4 +157,4 @@ git status
 
 ---
 
-[[../Cravveo_100Day_Master_Guide]] | [[../Daily_Log/2026-05-26_Day003_Log]]
+[[../Cravveo_100Day_Master_Guide]] | [[../Daily_Log/2026-05-26_Day003_Log|Day 003 로그]] | [[../2일차/2026-05-25_Day002_Work_Order|← Day 002]] | [[../README|커맨드 센터]]

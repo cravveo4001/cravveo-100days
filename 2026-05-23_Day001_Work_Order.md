@@ -86,4 +86,4 @@ ping -c 3 archive.ubuntu.com
 
 ---
 
-[[Cravveo_100Day_Master_Guide]] | [[Agent_Handover_Protocol]]
+[[Cravveo_100Day_Master_Guide]] | [[Daily_Log/2026-05-23_Day001_Log|Day 001 로그]] | [[1일차/Day001_YouTube_Upload|Day 001 유튜브 문서]] | [[Agent_Handover_Protocol]]
