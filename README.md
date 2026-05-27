@@ -1,93 +1,73 @@
-# Cravveo Command Center
+# Cravveo Company — 100일 AI 파인튜닝 도전기
+# Cravveo Company — 100-Day AI Fine-Tuning Challenge
 
-Cravveo 100일 프로젝트의 옵시디언 시작 문서입니다.
+> 쌩초보가 로컬 AI 파인튜닝으로 1인 기업 자동화 시스템을 만드는 과정을 기록합니다.
+> A complete beginner building a one-person business automation system with local AI fine-tuning — documented in public.
 
-이 Vault는 로컬 AI, Google Colab 파인튜닝, 오프라인 RAG, 1인 기업 자동화 구축 과정을 기록합니다.
-
----
-
-## 빠른 시작
-
-1. [[Cravveo_Channel_Direction|채널 방향성]]
-2. [[Cravveo_100Day_Master_Guide|100일 마스터 가이드]]
-3. [[2026-05-23_Day001_Work_Order|Day 001 작업지시서]]
-4. [[Daily_Log/2026-05-23_Day001_Log|Day 001 작업 로그]]
-5. [[1일차/Day001_YouTube_Upload|Day 001 유튜브 업로드 문서]]
-6. [[2일차/2026-05-25_Day002_Work_Order|Day 002 작업지시서]]
-7. [[Daily_Log/2026-05-25_Day002_Log|Day 002 작업 로그]]
-8. [[2일차/Day002_YouTube_Upload|Day 002 유튜브 업로드 문서]]
-9. [[3일차/2026-05-26_Day003_Work_Order|Day 003 작업지시서]]
-10. [[Daily_Log/2026-05-26_Day003_Log|Day 003 작업 로그]]
-11. [[Gemini_BGM_Prompts|Gemini BGM 프롬프트]]
-12. [[YouTube_Channel_Setup_Cravveo_Company|YouTube 채널 생성 설정]]
-13. [[Agent_Handover_Protocol|에이전트 인계 프로토콜]]
+🎥 [YouTube 채널 | YouTube Channel](https://www.youtube.com/@cravveo)
 
 ---
 
-## 현재 상태
+## 현재 진행 상황 | Progress
 
-- 현재 Day: Day 003
-- 오늘 목표: Git 저장소 초기화 + GitHub push + Obsidian 연결
-- 완료 상태: Day 003 진행 중
-
----
-
-## 프로젝트 흐름
-
-1. 로컬 리눅스 개발 환경 구축
-2. Ollama 기반 로컬 LLM 실행
-3. AnythingLLM 기반 오프라인 RAG 실험
-4. Google Colab GPU 기반 LoRA 파인튜닝
-5. 학습 가중치 로컬 회수
-6. GGUF 변환 및 Ollama 등록
-7. 옵시디언 지식 저장소와 로컬 RAG 결합
-8. 1인 기업 업무 자동화
+| Day | 내용 | Content | 상태 |
+|-----|------|---------|------|
+| Day 001 | 리눅스 개발 환경 구축 | Linux dev environment setup | ✅ 완료 |
+| Day 002 | 작업 폴더 + Python 가상환경 구성 | Project folder + Python venv | ✅ 완료 |
+| Day 003 | Git 초기화 + GitHub 첫 push | Git init + first GitHub push | ✅ 완료 |
+| **Day 004** | **Ollama 설치 + 로컬 LLM 첫 실행** | **Ollama install + first local LLM run** | ✅ 완료 |
+| Day 005~ | Ollama 모델 비교 + 프롬프트 실습 | Compare models + prompt practice | ⏳ 예정 |
+| Day 010~ | AnythingLLM 오프라인 RAG | AnythingLLM offline RAG | ⏳ 예정 |
+| Day 020~ | Google Colab GPU LoRA 파인튜닝 | Google Colab GPU LoRA fine-tuning | ⏳ 예정 |
+| Day 060~ | 가중치 회수 → GGUF → Ollama 등록 | Weights → GGUF → Ollama deploy | ⏳ 예정 |
+| Day 080~ | Obsidian + 로컬 RAG 연결 | Obsidian + local RAG integration | ⏳ 예정 |
+| Day 100 | 1인 기업 자동화 시스템 완성 | One-person business automation complete | 🎯 목표 |
 
 ---
 
-## 폴더
+## 프로젝트 소개 | About This Project
 
-- [[Daily_Log/2026-05-23_Day001_Log|Daily Log]]
-- [[Templates/Daily_Log_Template|Daily Log Template]]
-- `Assets/`: 이미지, 스크린샷, 녹화 자료 보관
-- `1일차/`, `2일차/`, `3일차/` ...: 각 Day별 영상, 업로드 문서, 썸네일, 메모를 한꺼번에 보관
+**한국어**
+이 저장소는 AI를 전혀 모르는 초보자가 로컬 AI 파인튜닝부터 1인 기업 자동화까지 직접 구축하는 100일 도전 기록입니다.
+전문가 강의가 아닙니다. 막히고, 에러 나고, 해결하는 과정을 있는 그대로 기록합니다.
+
+**English**
+This repository documents a 100-day challenge where a complete beginner builds a local AI fine-tuning workflow and one-person business automation from scratch.
+This is not an expert tutorial. It's a raw learning journal — including errors, dead ends, and breakthroughs.
 
 ---
 
-## Day별 보관 규칙
+## 폴더 구조 | Folder Structure
 
-앞으로 모든 작업 자료는 Day 단위 폴더에 모읍니다.
-
-예시:
-
-```text
-1일차/
-  1일차.mp4
-  Day001_YouTube_Upload.md
-
-2일차/
-  2일차.mp4
-  Day002_YouTube_Upload.md
-
-3일차/
-  3일차.mp4
-  Day003_YouTube_Upload.md
+```
+cravveo-100days/
+├── 1일차/          Day 001 작업 파일, 영상, 유튜브 업로드 문서
+├── 2일차/          Day 002 작업 파일, 영상, 유튜브 업로드 문서
+├── 3일차/          Day 003 작업 파일, 영상, 유튜브 업로드 문서
+├── 4일차/          Day 004 작업 파일, 영상, 유튜브 업로드 문서
+├── Daily_Log/      날짜별 작업 로그
+├── Assets/         이미지, 스크린샷, 썸네일
+└── Templates/      문서 템플릿
 ```
 
-각 Day 폴더에는 가능한 한 아래 자료를 함께 둡니다.
+---
 
-1. 원본 또는 편집 영상
-2. 유튜브 제목/설명/해시태그/태그/고정댓글 문서
-3. 해당 Day 썸네일
-4. 해당 Day 썸네일 이미지 생성 프롬프트
-5. Gemini 배경음악 생성 프롬프트 10개
-6. 녹화 중 메모 또는 오류 기록
-7. 필요하면 BGM/자막/스크린샷 자료
+## 기술 스택 | Tech Stack
 
-유튜브 업로드 문서 작성 규칙:
+- **OS**: Ubuntu Linux
+- **로컬 LLM**: Ollama + Gemma4
+- **파인튜닝**: Google Colab (LoRA)
+- **RAG**: AnythingLLM
+- **노트**: Obsidian
+- **버전 관리**: Git + GitHub
 
-1. 제목은 한국어와 영어를 함께 넣습니다.
-2. 설명은 한국어 설명 뒤에 영어 설명을 함께 넣습니다.
-3. 해시태그는 한국어/영어 키워드를 함께 넣습니다.
-4. 고정 댓글도 가능하면 한국어와 영어를 함께 넣습니다.
-5. 각 Day 업로드 문서에는 썸네일 프롬프트와 Gemini BGM 프롬프트 10개를 함께 작성합니다.
+---
+
+## Day별 링크 | Day Links
+
+| Day | 작업지시서 | 유튜브 업로드 문서 |
+|-----|-----------|-----------------|
+| Day 001 | [작업지시서](2026-05-23_Day001_Work_Order.md) | [업로드 문서](1일차/Day001_YouTube_Upload.md) |
+| Day 002 | [작업지시서](2일차/2026-05-25_Day002_Work_Order.md) | [업로드 문서](2일차/Day002_YouTube_Upload.md) |
+| Day 003 | [작업지시서](3일차/2026-05-26_Day003_Work_Order.md) | [업로드 문서](3일차/Day003_YouTube_Upload.md) |
+| Day 004 | [작업지시서](4일차/2026-05-27_Day004_Work_Order.md) | [업로드 문서](4일차/Day004_YouTube_Upload.md) |
