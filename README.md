@@ -4,7 +4,7 @@
 > 쌩초보가 로컬 AI 파인튜닝으로 1인 기업 자동화 시스템을 만드는 과정을 기록합니다.
 > A complete beginner building a one-person business automation system with local AI fine-tuning — documented in public.
 
-🎥 [YouTube 채널 | YouTube Channel](https://www.youtube.com/@cravveo)
+🎥 [YouTube 채널 | YouTube Channel](https://www.youtube.com/channel/UC1tM_t2Tn_w6BxHT3lrgodw)
 
 ---
 
