@@ -15,8 +15,10 @@
 | Day 001 | 리눅스 개발 환경 구축 | Linux dev environment setup | ✅ 완료 |
 | Day 002 | 작업 폴더 + Python 가상환경 구성 | Project folder + Python venv | ✅ 완료 |
 | Day 003 | Git 초기화 + GitHub 첫 push | Git init + first GitHub push | ✅ 완료 |
-| **Day 004** | **Ollama 설치 + 로컬 LLM 첫 실행** | **Ollama install + first local LLM run** | ✅ 완료 |
-| Day 005~ | Ollama 모델 비교 + 프롬프트 실습 | Compare models + prompt practice | ⏳ 예정 |
+| Day 004 | Ollama 설치 + 로컬 LLM 첫 실행 | Ollama install + first local LLM run | ✅ 완료 |
+| Day 005 | Ollama 모델 비교 + 프롬프트 실습 | Compare models + prompt practice | ✅ 완료 |
+| **Day 006** | **Python으로 Ollama API 연동 + AI 호출** | **Python Ollama API integration** | ✅ 완료 |
+| Day 007~ | Python 스크립트 확장 (대화 루프, 파일 저장) | Extend Python script | ⏳ 예정 |
 | Day 010~ | AnythingLLM 오프라인 RAG | AnythingLLM offline RAG | ⏳ 예정 |
 | Day 020~ | Google Colab GPU LoRA 파인튜닝 | Google Colab GPU LoRA fine-tuning | ⏳ 예정 |
 | Day 060~ | 가중치 회수 → GGUF → Ollama 등록 | Weights → GGUF → Ollama deploy | ⏳ 예정 |
@@ -45,6 +47,8 @@ cravveo-100days/
 ├── 2일차/          Day 002 작업 파일, 영상, 유튜브 업로드 문서
 ├── 3일차/          Day 003 작업 파일, 영상, 유튜브 업로드 문서
 ├── 4일차/          Day 004 작업 파일, 영상, 유튜브 업로드 문서
+├── 5일차/          Day 005 작업 파일, 영상, 유튜브 업로드 문서
+├── 6일차/          Day 006 작업 파일, 영상, 유튜브 업로드 문서
 ├── Daily_Log/      날짜별 작업 로그
 ├── Assets/         이미지, 스크린샷, 썸네일
 └── Templates/      문서 템플릿
@@ -71,3 +75,5 @@ cravveo-100days/
 | Day 002 | [작업지시서](2일차/2026-05-25_Day002_Work_Order.md) | [업로드 문서](2일차/Day002_YouTube_Upload.md) |
 | Day 003 | [작업지시서](3일차/2026-05-26_Day003_Work_Order.md) | [업로드 문서](3일차/Day003_YouTube_Upload.md) |
 | Day 004 | [작업지시서](4일차/2026-05-27_Day004_Work_Order.md) | [업로드 문서](4일차/Day004_YouTube_Upload.md) |
+| Day 005 | [작업지시서](5일차/2026-05-28_Day005_Work_Order.md) | [업로드 문서](5일차/Day005_YouTube_Upload.md) |
+| Day 006 | [작업지시서](6일차/2026-05-29_Day006_Work_Order.md) | [업로드 문서](6일차/Day006_YouTube_Upload.md) |
