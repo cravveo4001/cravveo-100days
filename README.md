@@ -20,6 +20,7 @@
 | Day 006 | Python으로 Ollama API 연동 + AI 호출 | Python Ollama API integration | ✅ 완료 |
 | Day 007 | AI 답변 자동 저장 스크립트 완성 | Auto-save AI answers to text file | ✅ 완료 |
 | Day 008 | 터미널 대화 루프 구현 | Terminal chat loop | ✅ 완료 |
+| **Day 009** | **대화 내용 파일 저장 챗봇** | **Chat log saving chatbot** | 🔥 진행 중 |
 | Day 010~ | AnythingLLM 오프라인 RAG | AnythingLLM offline RAG | ⏳ 예정 |
 | Day 020~ | Google Colab GPU LoRA 파인튜닝 | Google Colab GPU LoRA fine-tuning | ⏳ 예정 |
 | Day 060~ | 가중치 회수 → GGUF → Ollama 등록 | Weights → GGUF → Ollama deploy | ⏳ 예정 |
@@ -52,6 +53,7 @@ cravveo-100days/
 ├── 6일차/          Day 006 작업 파일, 영상, 유튜브 업로드 문서
 ├── 7일차/          Day 007 작업 파일, 영상, 유튜브 업로드 문서
 ├── 8일차/          Day 008 작업 파일, 영상, 유튜브 업로드 문서
+├── 9일차/          Day 009 작업 파일, 영상, 유튜브 업로드 문서
 ├── Daily_Log/      날짜별 작업 로그
 ├── Assets/         이미지, 스크린샷, 썸네일
 └── Templates/      문서 템플릿
@@ -82,3 +84,4 @@ cravveo-100days/
 | Day 006 | [작업지시서](6일차/2026-05-29_Day006_Work_Order.md) | [업로드 문서](6일차/Day006_YouTube_Upload.md) |
 | Day 007 | [작업지시서](7일차/2026-05-30_Day007_Work_Order.md) | [업로드 문서](7일차/Day007_YouTube_Upload.md) |
 | Day 008 | [작업지시서](8일차/2026-05-31_Day008_Work_Order.md) | [업로드 문서](8일차/Day008_YouTube_Upload.md) |
+| Day 009 | [작업지시서](9일차/2026-06-01_Day009_Work_Order.md) | - |
