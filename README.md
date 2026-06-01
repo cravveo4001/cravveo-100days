@@ -81,4 +81,4 @@ cravveo-100days/
 | Day 005 | [작업지시서](5일차/2026-05-28_Day005_Work_Order.md) | [업로드 문서](5일차/Day005_YouTube_Upload.md) |
 | Day 006 | [작업지시서](6일차/2026-05-29_Day006_Work_Order.md) | [업로드 문서](6일차/Day006_YouTube_Upload.md) |
 | Day 007 | [작업지시서](7일차/2026-05-30_Day007_Work_Order.md) | [업로드 문서](7일차/Day007_YouTube_Upload.md) |
-| Day 008 | [작업지시서](8일차/2026-05-31_Day008_Work_Order.md) | - |
+| Day 008 | [작업지시서](8일차/2026-05-31_Day008_Work_Order.md) | [업로드 문서](8일차/Day008_YouTube_Upload.md) |
