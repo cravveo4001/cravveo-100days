@@ -19,7 +19,7 @@
 | Day 005 | Ollama 모델 비교 + 프롬프트 실습 | Compare models + prompt practice | ✅ 완료 |
 | Day 006 | Python으로 Ollama API 연동 + AI 호출 | Python Ollama API integration | ✅ 완료 |
 | Day 007 | AI 답변 자동 저장 스크립트 완성 | Auto-save AI answers to text file | ✅ 완료 |
-| **Day 008** | **터미널 대화 루프 구현** | **Terminal chat loop** | 🔥 진행 중 |
+| Day 008 | 터미널 대화 루프 구현 | Terminal chat loop | ✅ 완료 |
 | Day 010~ | AnythingLLM 오프라인 RAG | AnythingLLM offline RAG | ⏳ 예정 |
 | Day 020~ | Google Colab GPU LoRA 파인튜닝 | Google Colab GPU LoRA fine-tuning | ⏳ 예정 |
 | Day 060~ | 가중치 회수 → GGUF → Ollama 등록 | Weights → GGUF → Ollama deploy | ⏳ 예정 |
