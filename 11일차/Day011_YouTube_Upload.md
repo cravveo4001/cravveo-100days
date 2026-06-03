@@ -10,7 +10,7 @@
 ### 제목
 
 ```text
-드디어 GUI로 로컬 AI와 대화합니다 Finally Chatting with Local AI Through a GUI — AI 초보의 100일 도전 Day 011 | AnythingLLM + Ollama
+GUI로 로컬 AI 첫 대화 First GUI Chat with Local AI — AI 초보의 100일 도전 Day 011 | AnythingLLM
 ```
 
 ---
@@ -69,9 +69,6 @@ Installed AnythingLLM — first GUI chat with local AI successful.
 터미널 코드 없이 클릭만으로 로컬 AI와 대화할 수 있습니다. RAG 챕터가 시작됐습니다.
 You can chat with local AI through clicks alone — no terminal code. The RAG chapter has begun.
 
-💻 제 노트북 사양은 영상에서 확인하세요!
-My laptop specs are shown in the video!
-
 🔗 GitHub: https://github.com/cravveo4001/cravveo-100days
 
 다음 Day 012 | Next Day 012
@@ -104,8 +101,7 @@ For anyone wondering what RAG is — one-line summary:
 "AI에게 내 문서를 먼저 읽게 하고, 그 내용으로 답하게 만드는 기술"
 "A technique that lets AI read your documents first, then answer based on them."
 
-💻 제 노트북 사양은 영상에서 확인하세요!
-My laptop specs are shown in the video!
+
 
 ---
 
