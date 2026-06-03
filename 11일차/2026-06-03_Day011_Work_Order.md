@@ -130,6 +130,40 @@ sudo apt install libfuse2
 
 ---
 
+### 현장 비유로 이해하기 | Understanding Through a Workplace Analogy
+
+**한국어**
+일반 AI = 신입 직원
+입사 교육 받은 것만 알아요. 우리 공장 특수 규정은 몰라요.
+
+RAG = 매뉴얼 들고 있는 신입 직원
+우리 공장 작업 지침서를 손에 쥐고 있어요.
+모르면 매뉴얼 찾아보고 답해줘요.
+
+**English**
+Normal AI = New employee
+Only knows what they learned in orientation. Doesn't know your factory's special rules.
+
+RAG = New employee holding the manual
+Has your workplace operation manual in hand.
+Doesn't know something? Looks it up and answers from it.
+
+---
+
+### 핵심 3줄 | 3-Line Summary
+
+> **한국어**
+> 1. AI는 원래 내 자료를 몰라요
+> 2. RAG = 내 자료를 AI한테 먹이는 것
+> 3. 그러면 AI가 내 자료 기반으로 답해요
+
+> **English**
+> 1. AI doesn't know your personal documents by default
+> 2. RAG = feeding your documents into AI
+> 3. Then AI answers based on your own materials
+
+---
+
 ### 쉬운 비유로 이해하기 | Understanding Through a Simple Analogy
 
 **RAG 없는 AI = 오픈북 없는 시험 | AI without RAG = Closed-book exam**
