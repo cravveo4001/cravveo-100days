@@ -22,7 +22,7 @@
 | Day 008 | 터미널 대화 루프 구현 | Terminal chat loop | ✅ 완료 |
 | Day 009 | 대화 내용 파일 저장 챗봇 | Chat log saving chatbot | ✅ 완료 |
 | Day 010 | Python 자동화 미니 프로젝트 (아침 브리핑 + cron) | Python automation + cron scheduler | ✅ 완료 |
-| **Day 011** | **AnythingLLM 설치 — 오프라인 RAG 챕터 시작** | **AnythingLLM install — offline RAG chapter** | 🔥 진행 중 |
+| Day 011 | AnythingLLM 설치 + GUI 첫 대화 | AnythingLLM install + first GUI chat | ✅ 완료 |
 | Day 020~ | Google Colab GPU LoRA 파인튜닝 | Google Colab GPU LoRA fine-tuning | ⏳ 예정 |
 | Day 060~ | 가중치 회수 → GGUF → Ollama 등록 | Weights → GGUF → Ollama deploy | ⏳ 예정 |
 | Day 080~ | Obsidian + 로컬 RAG 연결 | Obsidian + local RAG integration | ⏳ 예정 |
@@ -89,4 +89,4 @@ cravveo-100days/
 | Day 008 | [작업지시서](8일차/2026-05-31_Day008_Work_Order.md) | [업로드 문서](8일차/Day008_YouTube_Upload.md) |
 | Day 009 | [작업지시서](9일차/2026-06-01_Day009_Work_Order.md) | [업로드 문서](9일차/Day009_YouTube_Upload.md) |
 | Day 010 | [작업지시서](10일차/2026-06-02_Day010_Work_Order.md) | [업로드 문서](10일차/Day010_YouTube_Upload.md) |
-| Day 011 | [작업지시서](11일차/2026-06-03_Day011_Work_Order.md) | - |
+| Day 011 | [작업지시서](11일차/2026-06-03_Day011_Work_Order.md) | [업로드 문서](11일차/Day011_YouTube_Upload.md) |
