@@ -120,4 +120,76 @@ sudo apt install libfuse2
 
 ---
 
+---
+
+## 📚 RAG란 무엇인가? | What is RAG?
+
+### 한 줄 요약 | One-line Summary
+> **한국어**: AI에게 내 문서를 먼저 읽게 하고, 그 내용을 바탕으로 질문에 답하게 만드는 기술
+> **English**: A technique that lets AI read your documents first, then answer questions based on that content.
+
+---
+
+### 쉬운 비유로 이해하기 | Understanding Through a Simple Analogy
+
+**RAG 없는 AI = 오픈북 없는 시험 | AI without RAG = Closed-book exam**
+AI가 학습할 때 봤던 내용만 기억합니다.
+크라베오 컴퍼니가 뭔지 물어보면 → 모릅니다. 학습 데이터에 없으니까요.
+AI only remembers what it saw during training.
+Ask it about Cravveo Company → it doesn't know. It wasn't in the training data.
+
+**RAG 있는 AI = 오픈북 시험 | AI with RAG = Open-book exam**
+AI에게 내 문서를 먼저 줍니다.
+"크라베오 컴퍼니 소개서.pdf"를 업로드하면 AI가 그 문서를 찾아보고 답합니다.
+You give AI your documents first.
+Upload "Cravveo_Company_Introduction.pdf" → AI looks it up and answers from it.
+
+---
+
+### RAG의 3단계 동작 원리 | How RAG Works — 3 Steps
+
+```
+1단계 — 문서 업로드 | Step 1 — Upload Documents
+   내 파일(PDF, txt, md 등)을 AnythingLLM에 올립니다.
+   Upload your files (PDF, txt, md, etc.) to AnythingLLM.
+   → AI가 내용을 잘게 쪼개서 기억합니다.
+   → AI splits and memorizes the content.
+
+2단계 — 질문 입력 | Step 2 — Ask a Question
+   "지난달 매출 현황이 어떻게 돼?"
+   "What was last month's revenue?"
+   → AI가 업로드한 문서에서 관련 부분을 찾습니다.
+   → AI searches your uploaded documents for relevant sections.
+
+3단계 — 답변 생성 | Step 3 — Generate Answer
+   찾은 내용을 바탕으로 AI가 답변합니다.
+   AI answers based on what it found.
+   → 내 문서를 읽고 답하는 오프라인 비서 완성.
+   → Your offline assistant that reads your own documents is complete.
+```
+
+---
+
+### 왜 오프라인 RAG인가? | Why Offline RAG?
+
+| | 클라우드 RAG (ChatGPT 등) Cloud RAG | 로컬 RAG (AnythingLLM) Local RAG |
+|--|--------------------------------------|----------------------------------|
+| 내 문서 My documents | 외부 서버로 전송 Sent to external server | 내 컴퓨터 안에서만 처리 Stays on my computer |
+| 인터넷 Internet | 필요 Required | 필요 없음 Not needed |
+| 비용 Cost | 유료 Paid | 무료 Free |
+| 보안 Security | 낮음 Low | 100% 내 컴퓨터 100% local |
+
+**한국어**: 1인 기업가에게 중요한 영업 자료, 고객 정보, 전략 문서를 외부 서버에 올리지 않고 AI에게 읽게 할 수 있습니다. 이게 오프라인 RAG의 핵심입니다.
+**English**: Business materials, client info, and strategy documents never leave your computer — AI reads them locally. That's the power of offline RAG.
+
+---
+
+### 이 프로젝트에서 RAG로 할 것들 | What We'll Do with RAG in This Project
+
+- Day 014: 내 옵시디언 노트 업로드 → AI가 내 메모 기반으로 답변 | Upload Obsidian notes → AI answers based on my memos
+- Day 078: "오늘 작전 요약서 출력해줘" → AI가 내 일지를 읽고 정리 | "Summarize today's mission" → AI reads my logs
+- Day 100: 완전 오프라인 1인 기업 AI 비서 완성 | Complete offline one-person business AI assistant
+
+---
+
 [[../Cravveo_100Day_Master_Guide]] | [[../Daily_Log/2026-06-03_Day011_Log|Day 011 로그]] | [[Day011_YouTube_Upload|Day 011 유튜브]] | [[../10일차/2026-06-02_Day010_Work_Order|← Day 010]] | [[../12일차/2026-06-04_Day012_Work_Order|Day 012 →]]
