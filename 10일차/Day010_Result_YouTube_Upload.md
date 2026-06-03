@@ -100,8 +100,7 @@ AI generated its own questions, answered them, and saved the file. All on its ow
 이게 자동화입니다.
 This is automation.
 
-💻 제 노트북 사양은 영상에서 확인하세요!
-My laptop specs are shown in the video!
+
 
 ---
 
