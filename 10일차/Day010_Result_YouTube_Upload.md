@@ -10,7 +10,7 @@
 ### 제목
 
 ```text
-어제 설정한 자동화가 오전 9시에 혼자 돌아갔습니다 — AI 초보의 100일 도전 Day 010 결과 확인 | cron + Python + Ollama
+어제 설정한 자동화가 혼자 돌아갔습니다 It Ran by Itself — AI 초보의 100일 도전 Day 010 결과 확인 | cron + Python + Ollama
 ```
 
 ---
