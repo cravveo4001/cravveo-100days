@@ -10,7 +10,7 @@
 ### 제목
 
 ```text
-GUI로 로컬 AI 첫 대화 First GUI Chat with Local AI — AI 초보의 100일 도전 Day 011 | AnythingLLM
+AI 초보의 100일 도전 Day 011 | AnythingLLM 설치 + GUI로 로컬 AI 첫 대화 First GUI Chat with Local AI
 ```
 
 ---

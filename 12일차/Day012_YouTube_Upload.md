@@ -10,7 +10,7 @@
 ### 제목
 
 ```text
-AnythingLLM에 Ollama 연결 완료 Ollama Connected to AnythingLLM — AI 초보의 100일 도전 Day 012 | 로컬 RAG
+AI 초보의 100일 도전 Day 012 | AnythingLLM에 Ollama 연결 완료 — 로컬 AI GUI 워크스페이스 첫 대화 | Ollama + RAG 챕터
 ```
 
 ---
