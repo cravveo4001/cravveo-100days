@@ -65,8 +65,9 @@
 *   **미션**: AnythingLLM 웹 UI에서 로컬 Ollama 모델 연동
 *   **환경설정**: Settings → AI Provider → Ollama → Base URL: `http://127.0.0.1:11434`
 
-### Day 013: 오프라인 RAG 이론 + 와이파이 해제 테스트
-*   **미션**: RAG의 원리(문서 검색 후 답변에 첨부) 학습 + 인터넷 차단 상태에서 로컬 AI 작동 확인
+### Day 013: RAG 첫 실전 — 내 문서를 AI에게 먹이기
+*   **미션**: 임베딩 모델(nomic-embed-text) 설치 → AnythingLLM 연결 → cravveo_intro.txt 업로드 → "크라베오 컴퍼니가 뭐야?" Before/After 비교
+*   **핵심 장면**: 문서 없는 AI(모른다) vs 문서 있는 AI(답한다) — RAG 작동 직접 확인
 
 ### Day 014: 옵시디언 문서 RAG 업로드 및 테스트
 *   **미션**: 내 옵시디언 파일을 AnythingLLM에 업로드하고 질의응답 테스트
