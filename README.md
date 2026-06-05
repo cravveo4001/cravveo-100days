@@ -24,6 +24,7 @@
 | Day 010 | Python 자동화 미니 프로젝트 (아침 브리핑 + cron) | Python automation + cron scheduler | ✅ 완료 |
 | Day 011 | AnythingLLM 설치 + GUI 첫 대화 | AnythingLLM install + first GUI chat | ✅ 완료 |
 | Day 012 | AnythingLLM + Ollama 연결 + 워크스페이스 첫 대화 | AnythingLLM + Ollama connect + first workspace chat | ✅ 완료 |
+| Day 013 | RAG 첫 실전 — 내 문서를 AI에게 먹이기 Before/After | First real RAG test — feed my document to local AI | ✅ 완료 |
 | Day 020~ | Google Colab GPU LoRA 파인튜닝 | Google Colab GPU LoRA fine-tuning | ⏳ 예정 |
 | Day 060~ | 가중치 회수 → GGUF → Ollama 등록 | Weights → GGUF → Ollama deploy | ⏳ 예정 |
 | Day 080~ | Obsidian + 로컬 RAG 연결 | Obsidian + local RAG integration | ⏳ 예정 |
@@ -59,6 +60,7 @@ cravveo-100days/
 ├── 10일차/         Day 010 작업 파일, 영상, 유튜브 업로드 문서
 ├── 11일차/         Day 011 작업 파일, 영상, 유튜브 업로드 문서
 ├── 12일차/         Day 012 작업 파일, 영상, 유튜브 업로드 문서
+├── 13일차/         Day 013 작업 파일, 영상, 유튜브 업로드 문서
 ├── Daily_Log/      날짜별 작업 로그
 ├── Assets/         이미지, 스크린샷, 썸네일
 └── Templates/      문서 템플릿
@@ -93,3 +95,4 @@ cravveo-100days/
 | Day 010 | [작업지시서](10일차/2026-06-02_Day010_Work_Order.md) | [업로드 문서](10일차/Day010_YouTube_Upload.md) |
 | Day 011 | [작업지시서](11일차/2026-06-03_Day011_Work_Order.md) | [업로드 문서](11일차/Day011_YouTube_Upload.md) |
 | Day 012 | [작업지시서](12일차/2026-06-04_Day012_Work_Order.md) | [업로드 문서](12일차/Day012_YouTube_Upload.md) |
+| Day 013 | [작업지시서](13일차/2026-06-05_Day013_Work_Order.md) | [업로드 문서](13일차/Day013_YouTube_Upload.md) |
