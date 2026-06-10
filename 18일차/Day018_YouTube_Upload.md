@@ -43,6 +43,18 @@ Standard fine-tuning often crashes the session.
 Unsloth achieves the same results using 60% less memory.
 For free Colab fine-tuning, Unsloth is not optional — it's essential.
 
+오늘의 에러 & 해결 | Today's error & fix:
+17일차 셀을 먼저 다 실행하고 18일차(Unsloth)를 실행했더니 ImportError가 터졌습니다.
+원인: Unsloth는 반드시 transformers, peft, trl보다 먼저 import 되어야 합니다.
+해결: 18일차(Unsloth 설치 + import)를 먼저 실행하고, 그 다음에 17일차 라이브러리를 실행하면 정상 작동합니다.
+순서가 거꾸로였을 뿐인데 에러가 났습니다. 순서 하나가 전부였습니다.
+
+Today's error & fix:
+Ran Day 017 cells first (transformers, peft, trl), then tried to import Unsloth — got an ImportError.
+Cause: Unsloth must be imported BEFORE transformers, peft, and trl — not after.
+Fix: Run Day 018 (Unsloth install + import) first, then run the Day 017 libraries. That's all it took.
+Wrong order = error. Right order = success.
+
 이 채널은 완성된 전문가 강의가 아닙니다.
 This is not an expert tutorial channel.
 AI를 잘 모르는 초보자가 직접 막히고 해결하는 과정을 기록합니다.
@@ -79,6 +91,12 @@ Unsloth installed and Gemma 2B loaded. We're one step away from actual fine-tuni
 - 표준 방식 대비 속도: 2~5배 빠름 | 2~5x faster than standard
 - 메모리 절약: 60~80% | 60~80% less memory
 - GPU 가용 메모리 (15GB T4): 충분히 남음 | Plenty left with 4-bit loading
+
+오늘의 에러 & 해결 | Error & fix:
+17일차 먼저 실행 → 18일차 실행 = ImportError 💥
+18일차 먼저 실행 → 17일차 실행 = 정상 작동 ✅
+Unsloth는 반드시 다른 라이브러리보다 먼저 import 해야 합니다.
+Unsloth must be imported BEFORE transformers / peft / trl.
 
 🔗 GitHub: https://github.com/cravveo4001/cravveo-100days
 
