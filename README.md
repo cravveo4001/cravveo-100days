@@ -25,7 +25,13 @@
 | Day 011 | AnythingLLM 설치 + GUI 첫 대화 | AnythingLLM install + first GUI chat | ✅ 완료 |
 | Day 012 | AnythingLLM + Ollama 연결 + 워크스페이스 첫 대화 | AnythingLLM + Ollama connect + first workspace chat | ✅ 완료 |
 | Day 013 | RAG 첫 실전 — 내 문서를 AI에게 먹이기 Before/After | First real RAG test — feed my document to local AI | ✅ 완료 |
-| Day 020~ | Google Colab GPU LoRA 파인튜닝 | Google Colab GPU LoRA fine-tuning | ⏳ 예정 |
+| Day 014 | 옵시디언 문서 17개 RAG 업로드 + 모델 3번 교체 | Obsidian docs RAG upload + 3 model switches | ✅ 완료 |
+| Day 015 | Phase 1 전체 회고 — 14일 타임라인 + 핵심 교훈 | Phase 1 full retrospective — 14-day timeline | ✅ 완료 |
+| Day 016 | RAG vs 파인튜닝 비교 + 코랩 GPU 첫 가동 | RAG vs Fine-Tuning + first Colab GPU run | ✅ 완료 |
+| Day 017 | 코랩 파이썬 가상 스택 구축 — 필수 라이브러리 6개 설치 | Colab fine-tuning library stack setup | ✅ 완료 |
+| Day 018 | Unsloth 소개 — 속도 2~5배↑ 메모리 60%↓ + 모델 로드 | Unsloth intro + Gemma 2B load via FastLanguageModel | ✅ 완료 |
+| Day 019~ | JSONL 포맷 분석 + 크라베오 데이터셋 제작 | JSONL format + custom dataset creation | ⏳ 예정 |
+| Day 040~ | Google Colab GPU LoRA 파인튜닝 | Google Colab GPU LoRA fine-tuning | ⏳ 예정 |
 | Day 060~ | 가중치 회수 → GGUF → Ollama 등록 | Weights → GGUF → Ollama deploy | ⏳ 예정 |
 | Day 080~ | Obsidian + 로컬 RAG 연결 | Obsidian + local RAG integration | ⏳ 예정 |
 | Day 100 | 1인 기업 자동화 시스템 완성 | One-person business automation complete | 🎯 목표 |
@@ -61,6 +67,11 @@ cravveo-100days/
 ├── 11일차/         Day 011 작업 파일, 영상, 유튜브 업로드 문서
 ├── 12일차/         Day 012 작업 파일, 영상, 유튜브 업로드 문서
 ├── 13일차/         Day 013 작업 파일, 영상, 유튜브 업로드 문서
+├── 14일차/         Day 014 작업 파일, 영상, 유튜브 업로드 문서
+├── 15일차/         Day 015 작업 파일, 영상, 유튜브 업로드 문서
+├── 16일차/         Day 016 작업 파일, 영상, 유튜브 업로드 문서
+├── 17일차/         Day 017 작업 파일, 영상, 유튜브 업로드 문서
+├── 18일차/         Day 018 작업 파일, 영상, 유튜브 업로드 문서
 ├── Daily_Log/      날짜별 작업 로그
 ├── Assets/         이미지, 스크린샷, 썸네일
 └── Templates/      문서 템플릿
@@ -96,3 +107,8 @@ cravveo-100days/
 | Day 011 | [작업지시서](11일차/2026-06-03_Day011_Work_Order.md) | [업로드 문서](11일차/Day011_YouTube_Upload.md) |
 | Day 012 | [작업지시서](12일차/2026-06-04_Day012_Work_Order.md) | [업로드 문서](12일차/Day012_YouTube_Upload.md) |
 | Day 013 | [작업지시서](13일차/2026-06-05_Day013_Work_Order.md) | [업로드 문서](13일차/Day013_YouTube_Upload.md) |
+| Day 014 | [작업지시서](14일차/2026-06-06_Day014_Work_Order.md) | [업로드 문서](14일차/Day014_YouTube_Upload.md) |
+| Day 015 | [작업지시서](15일차/2026-06-07_Day015_Work_Order.md) | [업로드 문서](15일차/Day015_YouTube_Upload.md) |
+| Day 016 | [작업지시서](16일차/2026-06-08_Day016_Work_Order.md) | [업로드 문서](16일차/Day016_YouTube_Upload.md) |
+| Day 017 | [작업지시서](17일차/2026-06-09_Day017_Work_Order.md) | [업로드 문서](17일차/Day017_YouTube_Upload.md) |
+| Day 018 | [작업지시서](18일차/2026-06-10_Day018_Work_Order.md) | [업로드 문서](18일차/Day018_YouTube_Upload.md) |
