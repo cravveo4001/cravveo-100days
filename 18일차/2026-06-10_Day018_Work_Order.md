@@ -110,8 +110,6 @@ For anyone fine-tuning on free Colab, Unsloth isn't optional — it's essential.
 ```python
 %%capture
 !pip install unsloth
-# 최신 nightly 버전 설치 (권장)
-!pip uninstall unsloth -y && pip install --upgrade --no-cache-dir "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"
 ```
 
 설치 완료 확인:
@@ -197,9 +195,15 @@ print(f"남은 메모리: {round(max_memory - start_gpu_memory, 3)} GB")
 
 ## 🔧 트러블슈팅
 
-**Unsloth 설치 도중 에러가 뜰 때**
-→ `%%capture`를 셀 맨 위에 붙이면 출력 없이 설치됩니다. 에러 없이 완료되면 정상.
-→ 그래도 에러가 나면 런타임 재시작 후 다시 시도.
+**`cannot import name 'maybe_log_cudagraph_partition'` 에러**
+→ nightly 버전과 현재 코랩 PyTorch 버전 충돌. `!pip install unsloth` (stable) 로만 설치하면 해결됩니다.
+→ 런타임 재시작 후 반드시 `import unsloth`를 다른 라이브러리보다 먼저 실행하세요.
+
+**`Unsloth should be imported before trl, transformers, peft` 경고**
+→ 어제 설치한 라이브러리가 세션에 남아 있어서 발생. 런타임 재시작으로 해결됩니다.
+
+**Unsloth 설치 도중 다른 에러가 뜰 때**
+→ 런타임 재시작 후 Unsloth 설치 셀을 가장 먼저 실행하세요.
 
 **모델 로드 중 메모리 부족 에러 (CUDA out of memory)**
 → T4 GPU 런타임이 맞는지 확인. CPU 런타임이면 모델을 못 올림.
