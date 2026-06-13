@@ -83,6 +83,7 @@ Analyzed JSONL format and wrote the first 5 Cravveo training entries by hand.
 - 파인튜닝 데이터는 포맷이 전부 | For fine-tuning, format is everything
 
 🔗 GitHub: https://github.com/cravveo4001/cravveo-100days
+📓 Google Colab: https://colab.research.google.com/drive/1YpjfWZW8FMtYRMKyDCWT_QNKiyq0AH1v
 
 다음 Day 020 | Next Day 020
 크라베오 데이터셋 본격 제작 — AI에게 크라베오 스타일을 가르칠 질문-답변 세트 직접 작성.
@@ -110,6 +111,9 @@ Fine-tuning = showing the AI formatted data hundreds of times.
 That format is JSONL — one JSON object per line.
 Today I wrote my first training entries by hand.
 Format is everything.
+
+🔗 GitHub: https://github.com/cravveo4001/cravveo-100days
+📓 Google Colab: https://colab.research.google.com/drive/1YpjfWZW8FMtYRMKyDCWT_QNKiyq0AH1v
 
 ---
 
