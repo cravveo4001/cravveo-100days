@@ -34,7 +34,8 @@
 | Day 020+021 | 크라베오 데이터셋 수동 제작 + JSONL 변환 완성 | Manual dataset creation + JSONL pipeline complete | ✅ 완료 |
 | Day 022 | HuggingFace 로그인 + 토큰 보안 실수 공개 | HuggingFace login + token security mistake shared | ✅ 완료 |
 | Day 023 | 데이터셋 HuggingFace 업로드 + cron 자동화 파이프라인 완성 | Dataset upload to HuggingFace + cron auto-pipeline | ✅ 완료 |
-| Day 024 | Unsloth + LoRA 파인튜닝 코드 작성 시작 | Start writing Unsloth + LoRA fine-tuning code | 🔥 진행 중 |
+| Day 024 | Unsloth 모델 로드 + HuggingFace 데이터셋 연결 — 파인튜닝 뼈대 완성 | Unsloth model load + HuggingFace dataset connect — skeleton complete | ✅ 완료 |
+| Day 025 | LoRA 어댑터 설정 + SFTTrainer + 첫 학습 실행 | LoRA adapter + SFTTrainer + first training run | 🔥 진행 중 |
 | Day 040~ | Google Colab GPU LoRA 파인튜닝 | Google Colab GPU LoRA fine-tuning | ⏳ 예정 |
 | Day 060~ | 가중치 회수 → GGUF → Ollama 등록 | Weights → GGUF → Ollama deploy | ⏳ 예정 |
 | Day 080~ | Obsidian + 로컬 RAG 연결 | Obsidian + local RAG integration | ⏳ 예정 |
@@ -81,6 +82,7 @@ cravveo-100days/
 ├── 21일차/         Day 021 작업 파일
 ├── 22일차/         Day 022 작업 파일, 영상, 유튜브 업로드 문서
 ├── 23일차/         Day 023 작업 파일, 영상, 유튜브 업로드 문서
+├── 24일차/         Day 024 작업 파일, 영상, 유튜브 업로드 문서
 ├── Daily_Log/      날짜별 작업 로그
 ├── Assets/         이미지, 스크린샷, 썸네일
 └── Templates/      문서 템플릿
@@ -127,3 +129,4 @@ cravveo-100days/
 | Day 020+021 | [작업지시서](20일차/2026-06-12_Day020+021_Work_Order.md) | [업로드 문서](20일차/Day020+021_YouTube_Upload.md) |
 | Day 022 | [작업지시서](22일차/2026-06-14_Day022_Work_Order.md) | [업로드 문서](22일차/Day022_YouTube_Upload.md) |
 | Day 023 | [작업지시서](23일차/2026-06-15_Day023_Work_Order.md) | [업로드 문서](23일차/Day023_YouTube_Upload.md) |
+| Day 024 | [작업지시서](24일차/2026-06-16_Day024_Work_Order.md) | [업로드 문서](24일차/Day024_YouTube_Upload.md) |
