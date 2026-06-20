@@ -36,6 +36,7 @@
 | Day 023 | 데이터셋 HuggingFace 업로드 + cron 자동화 파이프라인 완성 | Dataset upload to HuggingFace + cron auto-pipeline | ✅ 완료 |
 | Day 024 | Unsloth 모델 로드 + HuggingFace 데이터셋 연결 — 파인튜닝 뼈대 완성 | Unsloth model load + HuggingFace dataset connect — skeleton complete | ✅ 완료 |
 | Day 025 | LoRA 어댑터 설정 + SFTTrainer + 첫 학습 실행 — loss 25.5→15.4 확인 | LoRA adapter + SFTTrainer + first training run — loss confirmed | ✅ 완료 |
+| Day 026 | 3일간의 사투 — Gemma 실패 → Llama 3.2 교체 → loss 3.4 정상화 | 3-day battle — Gemma fail → Llama 3.2 switch → loss normalized | ✅ 완료 |
 | Day 040~ | Google Colab GPU LoRA 파인튜닝 | Google Colab GPU LoRA fine-tuning | ⏳ 예정 |
 | Day 060~ | 가중치 회수 → GGUF → Ollama 등록 | Weights → GGUF → Ollama deploy | ⏳ 예정 |
 | Day 080~ | Obsidian + 로컬 RAG 연결 | Obsidian + local RAG integration | ⏳ 예정 |
@@ -83,6 +84,8 @@ cravveo-100days/
 ├── 22일차/         Day 022 작업 파일, 영상, 유튜브 업로드 문서
 ├── 23일차/         Day 023 작업 파일, 영상, 유튜브 업로드 문서
 ├── 24일차/         Day 024 작업 파일, 영상, 유튜브 업로드 문서
+├── 25일차/         Day 025 작업 파일, 영상, 유튜브 업로드 문서
+├── 26일차/         Day 026 작업 파일, 유튜브 업로드 문서
 ├── Daily_Log/      날짜별 작업 로그
 ├── Assets/         이미지, 스크린샷, 썸네일
 └── Templates/      문서 템플릿
@@ -94,7 +97,7 @@ cravveo-100days/
 
 - **OS**: Ubuntu Linux
 - **로컬 LLM**: Ollama + Gemma4
-- **파인튜닝**: Google Colab + Unsloth (LoRA)
+- **파인튜닝**: Google Colab + Unsloth (LoRA) + Llama 3.2 1B
 - **RAG**: AnythingLLM
 - **데이터셋**: HuggingFace Hub
 - **자동화**: cron + Python pipeline
@@ -131,3 +134,4 @@ cravveo-100days/
 | Day 023 | [작업지시서](23일차/2026-06-15_Day023_Work_Order.md) | [업로드 문서](23일차/Day023_YouTube_Upload.md) |
 | Day 024 | [작업지시서](24일차/2026-06-16_Day024_Work_Order.md) | [업로드 문서](24일차/Day024_YouTube_Upload.md) |
 | Day 025 | [작업지시서](25일차/2026-06-17_Day025_Work_Order.md) | [업로드 문서](25일차/Day025_YouTube_Upload.md) |
+| Day 026 | [작업지시서](26일차/2026-06-20_Day026_Work_Order.md) | [업로드 문서](26일차/Day026_YouTube_Upload.md) |
