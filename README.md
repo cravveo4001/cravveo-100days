@@ -5,6 +5,9 @@
 > A complete beginner building a one-person business automation system with local AI fine-tuning — documented in public.
 
 🎥 [YouTube 채널 | YouTube Channel](https://www.youtube.com/channel/UC1tM_t2Tn_w6BxHT3lrgodw)
+🤗 [데이터셋 | Dataset](https://huggingface.co/datasets/cravveo/cravveo-briefing-dataset)
+🤖 [파인튜닝 모델 | Fine-tuned Model](https://huggingface.co/cravveo/cravveo-llama-lora)
+📒 [코랩 노트북 | Colab Notebook](https://colab.research.google.com/drive/1o8xlRk_v5ACE32CKQpF2I3rhOV68efSY?usp=sharing)
 
 ---
 
