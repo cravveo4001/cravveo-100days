@@ -41,6 +41,8 @@
 | Day 025 | LoRA 어댑터 설정 + SFTTrainer + 첫 학습 실행 — loss 25.5→15.4 확인 | LoRA adapter + SFTTrainer + first training run — loss confirmed | ✅ 완료 |
 | Day 026 | 3일간의 사투 — Gemma 실패 → Llama 3.2 교체 → loss 3.4 정상화 | 3-day battle — Gemma fail → Llama 3.2 switch → loss normalized | ✅ 완료 |
 | Day 027 | 데이터 83개 확장 + Before/After — AI가 크라베오를 처음으로 정확히 답함 | Dataset expansion + Before/After — AI answers Cravveo correctly | ✅ 완료 |
+| Day 028 | LoRA 가중치 저장 + HuggingFace 업로드 + 재로드 성공 | LoRA weights saved + HuggingFace upload + reload test passed | ✅ 완료 |
+| Day 029 | GGUF 변환 + 로컬 Ollama에 내 AI 등록 — 내 컴퓨터에서 실행 | GGUF conversion + local Ollama registration — runs on my laptop | ✅ 완료 |
 | Day 040~ | Google Colab GPU LoRA 파인튜닝 | Google Colab GPU LoRA fine-tuning | ⏳ 예정 |
 | Day 060~ | 가중치 회수 → GGUF → Ollama 등록 | Weights → GGUF → Ollama deploy | ⏳ 예정 |
 | Day 080~ | Obsidian + 로컬 RAG 연결 | Obsidian + local RAG integration | ⏳ 예정 |
@@ -91,6 +93,8 @@ cravveo-100days/
 ├── 25일차/         Day 025 작업 파일, 영상, 유튜브 업로드 문서
 ├── 26일차/         Day 026 작업 파일, 유튜브 업로드 문서
 ├── 27일차/         Day 027 작업 파일, 데이터셋, 유튜브 업로드 문서
+├── 28일차/         Day 028 작업 파일, 유튜브 업로드 문서
+├── 29일차/         Day 029 작업 파일, GGUF 모델, 유튜브 업로드 문서
 ├── Daily_Log/      날짜별 작업 로그
 ├── Assets/         이미지, 스크린샷, 썸네일
 └── Templates/      문서 템플릿
@@ -141,3 +145,5 @@ cravveo-100days/
 | Day 025 | [작업지시서](25일차/2026-06-17_Day025_Work_Order.md) | [업로드 문서](25일차/Day025_YouTube_Upload.md) |
 | Day 026 | [작업지시서](26일차/2026-06-20_Day026_Work_Order.md) | [업로드 문서](26일차/Day026_YouTube_Upload.md) |
 | Day 027 | [작업지시서](27일차/2026-06-21_Day027_Work_Order.md) | [업로드 문서](27일차/Day027_YouTube_Upload.md) |
+| Day 028 | [작업지시서](28일차/2026-06-22_Day028_Work_Order.md) | [업로드 문서](28일차/Day028_YouTube_Upload.md) |
+| Day 029 | [작업지시서](29일차/2026-06-23_Day029_Work_Order.md) | [업로드 문서](29일차/Day029_YouTube_Upload.md) |
