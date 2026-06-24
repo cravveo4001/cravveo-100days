@@ -21,3 +21,4 @@ installer.sh
 .vscode/
 __pycache__/
 briefing_*.txt
+*.gguf
