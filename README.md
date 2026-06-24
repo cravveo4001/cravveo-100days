@@ -67,59 +67,33 @@ This is not an expert tutorial. It's a raw learning journal — including errors
 
 ```
 cravveo-100days/
-├── 1일차/          Day 001 작업 파일, 영상, 유튜브 업로드 문서
-├── 2일차/          Day 002 작업 파일, 영상, 유튜브 업로드 문서
-├── 3일차/          Day 003 작업 파일, 영상, 유튜브 업로드 문서
-├── 4일차/          Day 004 작업 파일, 영상, 유튜브 업로드 문서
-├── 5일차/          Day 005 작업 파일, 영상, 유튜브 업로드 문서
-├── 6일차/          Day 006 작업 파일, 영상, 유튜브 업로드 문서
-├── 7일차/          Day 007 작업 파일, 영상, 유튜브 업로드 문서
-├── 8일차/          Day 008 작업 파일, 영상, 유튜브 업로드 문서
-├── 9일차/          Day 009 작업 파일, 영상, 유튜브 업로드 문서
-├── 10일차/         Day 010 작업 파일, 영상, 유튜브 업로드 문서
-├── 11일차/         Day 011 작업 파일, 영상, 유튜브 업로드 문서
-├── 12일차/         Day 012 작업 파일, 영상, 유튜브 업로드 문서
-├── 13일차/         Day 013 작업 파일, 영상, 유튜브 업로드 문서
-├── 14일차/         Day 014 작업 파일, 영상, 유튜브 업로드 문서
-├── 15일차/         Day 015 작업 파일, 영상, 유튜브 업로드 문서
-├── 16일차/         Day 016 작업 파일, 영상, 유튜브 업로드 문서
-├── 17일차/         Day 017 작업 파일, 영상, 유튜브 업로드 문서
-├── 18일차/         Day 018 작업 파일, 영상, 유튜브 업로드 문서
-├── 19일차/         Day 019 작업 파일, 영상, 유튜브 업로드 문서
-├── 20일차/         Day 020+021 작업 파일, 영상, 유튜브 업로드 문서
-├── 21일차/         Day 021 작업 파일
-├── 22일차/         Day 022 작업 파일, 영상, 유튜브 업로드 문서
-├── 23일차/         Day 023 작업 파일, 영상, 유튜브 업로드 문서
-├── 24일차/         Day 024 작업 파일, 영상, 유튜브 업로드 문서
-├── 25일차/         Day 025 작업 파일, 영상, 유튜브 업로드 문서
-├── 26일차/         Day 026 작업 파일, 유튜브 업로드 문서
-├── 27일차/         Day 027 작업 파일, 데이터셋, 유튜브 업로드 문서
-├── 28일차/         Day 028 작업 파일, 유튜브 업로드 문서
-├── 29일차/         Day 029 작업 파일, GGUF 모델, 유튜브 업로드 문서
-├── Daily_Log/      날짜별 작업 로그
-├── Assets/         이미지, 스크린샷, 썸네일
-└── Templates/      문서 템플릿
+├── 1일차~30일차/   Day 001~030 작업 파일 | Work files, YouTube upload docs
+├── Daily_Log/      날짜별 작업 로그 | Daily work logs
+├── Assets/         이미지, 스크린샷, 썸네일 | Images, screenshots, thumbnails
+└── Templates/      문서 템플릿 | Document templates
 ```
 
 ---
 
 ## 기술 스택 | Tech Stack
 
-- **OS**: Ubuntu Linux
-- **로컬 LLM**: Ollama + Gemma4
-- **파인튜닝**: Google Colab + Unsloth (LoRA) + Llama 3.2 1B
-- **RAG**: AnythingLLM
-- **데이터셋**: HuggingFace Hub
-- **자동화**: cron + Python pipeline
-- **노트**: Obsidian
-- **버전 관리**: Git + GitHub
+| 분야 | Category | 도구 | Tools |
+|------|----------|------|-------|
+| OS | OS | Ubuntu Linux | Ubuntu Linux |
+| 로컬 LLM | Local LLM | Ollama | Ollama |
+| 파인튜닝 | Fine-tuning | Google Colab + Unsloth (LoRA) + Llama 3.2 1B | Google Colab + Unsloth (LoRA) + Llama 3.2 1B |
+| RAG | RAG | AnythingLLM | AnythingLLM |
+| 데이터셋 | Dataset | HuggingFace Hub | HuggingFace Hub |
+| 자동화 | Automation | cron + Python 파이프라인 | cron + Python pipeline |
+| 노트 | Notes | Obsidian | Obsidian |
+| 버전 관리 | Version Control | Git + GitHub | Git + GitHub |
 
 ---
 
 ## Day별 링크 | Day Links
 
-| Day | 작업지시서 | 유튜브 업로드 문서 |
-|-----|-----------|-----------------|
+| Day | 작업지시서 Work Order | 유튜브 업로드 YouTube Upload |
+|-----|---------------------|---------------------------|
 | Day 001 | [작업지시서](2026-05-23_Day001_Work_Order.md) | [업로드 문서](1일차/Day001_YouTube_Upload.md) |
 | Day 002 | [작업지시서](2일차/2026-05-25_Day002_Work_Order.md) | [업로드 문서](2일차/Day002_YouTube_Upload.md) |
 | Day 003 | [작업지시서](3일차/2026-05-26_Day003_Work_Order.md) | [업로드 문서](3일차/Day003_YouTube_Upload.md) |
