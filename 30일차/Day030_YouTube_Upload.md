@@ -29,44 +29,50 @@ Cravveo Company 100-Day Project, Day 030.
 30 days ago I couldn't even install Linux.
 Today my own AI runs on my own computer.
 
-Phase 1 (Day 001~015): 환경 구축
-리눅스 → Python → Git → Ollama → 챗봇 → cron 자동화 → AnythingLLM → RAG
+Phase 1 (Day 001 ~ 015): 환경 구축
+리눅스, Python, Git, Ollama, 챗봇, cron 자동화, AnythingLLM, RAG
 
-Phase 2 (Day 016~029): 파인튜닝
-코랩 GPU → Unsloth → 데이터셋 → 첫 학습 → Gemma 실패 → Llama 교체
-→ Before/After 확인 → HuggingFace 저장 → GGUF → 로컬 Ollama 등록
+Phase 2 (Day 016 ~ 029): 파인튜닝
+코랩 GPU, Unsloth, 데이터셋 제작, 첫 학습, Gemma 실패,
+Llama 교체, Before/After 확인, HuggingFace 저장, GGUF 변환, 로컬 Ollama 등록
 
-Phase 3 (Day 031~050): 앞으로
+Phase 3 (Day 031 ~ 050): 앞으로
 "크라베오를 아는 AI"를 "크라베오를 위해 일하는 AI"로 업그레이드합니다.
 데이터 확장, 답변 품질 개선, RAG 통합, 업무 자동화 연결.
 
 Phase 1: Environment setup
-Linux → Python → Git → Ollama → chatbot → cron → AnythingLLM → RAG
+Linux, Python, Git, Ollama, chatbot, cron, AnythingLLM, RAG
 
 Phase 2: Fine-tuning
-Colab GPU → Unsloth → dataset → first training → Gemma fail → Llama switch
-→ Before/After → HuggingFace save → GGUF → local Ollama
+Colab GPU, Unsloth, dataset, first training, Gemma fail,
+Llama switch, Before/After, HuggingFace save, GGUF, local Ollama
 
 Phase 3: What's next
-Upgrade "AI that knows Cravveo" to "AI that works for Cravveo."
+Upgrade from "AI that knows Cravveo" to "AI that works for Cravveo."
 Data expansion, quality improvement, RAG integration, task automation.
 
 30일간의 핵심 교훈 | Key lessons from 30 days:
-1. 모델 호환성이 코드보다 중요하다 | Model compatibility > code
-2. 디버깅은 가장 작은 단위로 테스트 | Debug with smallest unit
-3. 쉬는 것도 전략이다 | Rest is a strategy
-4. 데이터 품질이 양보다 중요하다 | Data quality > quantity
-5. 파인튜닝은 진짜로 작동한다 | Fine-tuning actually works
+1. 모델 호환성이 코드보다 중요하다
+2. 디버깅은 가장 작은 단위로 테스트하라
+3. 쉬는 것도 전략이다
+4. 데이터 품질이 양보다 중요하다
+5. 파인튜닝은 진짜로 작동한다
+
+1. Model compatibility matters more than code
+2. Debug with the smallest unit
+3. Rest is a strategy
+4. Data quality over quantity
+5. Fine-tuning actually works
 
 이 채널은 완성된 전문가 강의가 아닙니다.
 This is not an expert tutorial channel.
 AI를 잘 모르는 초보자가 직접 막히고 해결하는 과정을 기록합니다.
 It is a beginner's learning journal, including mistakes, errors, and fixes.
 
-🔗 GitHub: https://github.com/cravveo4001/cravveo-100days
-🤗 Dataset: https://huggingface.co/datasets/cravveo/cravveo-briefing-dataset
-🤖 Model: https://huggingface.co/cravveo/cravveo-llama-lora
-📒 Colab: https://colab.research.google.com/drive/1o8xlRk_v5ACE32CKQpF2I3rhOV68efSY?usp=sharing
+GitHub: https://github.com/cravveo4001/cravveo-100days
+Dataset: https://huggingface.co/datasets/cravveo/cravveo-briefing-dataset
+Model: https://huggingface.co/cravveo/cravveo-llama-lora
+Colab: https://colab.research.google.com/drive/1o8xlRk_v5ACE32CKQpF2I3rhOV68efSY?usp=sharing
 
 #Cravveo #파인튜닝 #100일회고 #30일 #Phase2 #AI초보 #BuildInPublic #100일챌린지
 ```
