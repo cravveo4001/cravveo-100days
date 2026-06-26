@@ -1,0 +1,5 @@
+FROM cravveo-3b-q8.gguf
+TEMPLATE "{{ .Prompt }}{{ .Response }}"
+PARAMETER temperature 0.2
+PARAMETER stop "질문:"
+PARAMETER num_predict 200

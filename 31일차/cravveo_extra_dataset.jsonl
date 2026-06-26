@@ -1,0 +1,101 @@
+{"instruction": "LoRA의 r값은 뭐야?", "input": "", "output": "LoRA에서 r은 rank야. 작을수록 빠르고 메모리를 적게 쓰고, 클수록 더 많은 걸 학습해. 크라베오는 r=16을 쓰고 있어."}
+{"instruction": "SFTTrainer에서 gradient_accumulation_steps가 뭐야?", "input": "", "output": "한 번에 업데이트하지 않고 여러 배치의 기울기를 쌓아서 한꺼번에 업데이트하는 거야. 메모리가 부족할 때 배치 크기를 키우는 효과가 있어."}
+{"instruction": "learning_rate는 뭐야?", "input": "", "output": "모델이 학습할 때 가중치를 얼마나 크게 바꿀지 결정하는 값이야. 너무 크면 발산하고, 너무 작으면 학습이 느려. 크라베오는 5e-5를 써."}
+{"instruction": "epoch가 뭐야?", "input": "", "output": "전체 데이터를 한 바퀴 학습하는 단위야. 10 epoch이면 같은 데이터를 10번 반복 학습하는 거야."}
+{"instruction": "batch size가 뭐야?", "input": "", "output": "한 번에 학습하는 데이터 개수야. 크라베오는 GPU 메모리 때문에 batch size 1을 쓰고, gradient accumulation으로 보완해."}
+{"instruction": "fp16이 뭐야?", "input": "", "output": "16비트 부동소수점이야. 32비트 대신 쓰면 메모리를 절반으로 줄이고 속도도 빨라져. 코랩 T4 GPU에서 필수야."}
+{"instruction": "warmup_steps가 뭐야?", "input": "", "output": "학습 초반에 learning rate를 천천히 올리는 단계야. 갑자기 큰 값으로 시작하면 학습이 불안정해지거든."}
+{"instruction": "loss가 0에 가까워지면 좋은 거야?", "input": "", "output": "보통은 좋지만, 너무 0에 가까우면 과적합일 수 있어. 모델이 데이터를 외워버린 거야. 새로운 질문에 답을 못 할 수도 있어."}
+{"instruction": "과적합이 뭐야?", "input": "", "output": "모델이 학습 데이터를 너무 완벽하게 외워서 새로운 데이터에 대응을 못 하는 상태야. loss가 0인데 실제 답변이 이상하면 과적합이야."}
+{"instruction": "양자화가 뭐야?", "input": "", "output": "모델의 가중치를 더 적은 비트로 표현하는 거야. 32비트를 4비트로 줄이면 크기가 8분의 1로 줄어들어. 속도도 빨라지지만 품질이 약간 떨어져."}
+{"instruction": "q4_k_m이 뭐야?", "input": "", "output": "GGUF 양자화 방식 중 하나야. 4비트 양자화인데 중요한 레이어는 더 높은 정밀도로 유지해서 품질과 크기의 균형을 맞춰."}
+{"instruction": "토큰이 뭐야?", "input": "", "output": "AI가 텍스트를 처리하는 최소 단위야. 한글은 보통 한 글자가 1~2토큰이야. 모델이 한 번에 처리할 수 있는 토큰 수에 제한이 있어."}
+{"instruction": "max_seq_length가 뭐야?", "input": "", "output": "모델이 한 번에 처리할 수 있는 최대 토큰 수야. 크라베오는 512로 설정해. 데이터가 짧으니까 충분해."}
+{"instruction": "EOS 토큰이 뭐야?", "input": "", "output": "End of Sequence 토큰이야. 모델에게 답변이 끝났다는 걸 알려주는 특수 토큰이야. 이게 없으면 모델이 계속 말을 이어가."}
+{"instruction": "adapter_model.safetensors가 뭐야?", "input": "", "output": "LoRA 학습으로 만들어진 가중치 파일이야. 전체 모델이 아니라 바뀐 부분만 저장해서 크기가 작아. 크라베오 어댑터는 45MB야."}
+{"instruction": "코랩에서 bitsandbytes 오류가 나면 어떻게 해?", "input": "", "output": "libnvJitLink.so.13 파일을 못 찾는 오류야. find 명령어로 파일 위치를 찾고, ctypes.CDLL로 RTLD_GLOBAL 모드로 로드하면 해결돼."}
+{"instruction": "런타임 재시작을 왜 해야 해?", "input": "", "output": "pip install은 디스크에만 설치해. 파이썬 프로세스가 새 라이브러리를 인식하려면 런타임을 재시작해야 해. 안 하면 import 오류가 나."}
+{"instruction": "코랩 세션이 끊기면 어떻게 해?", "input": "", "output": "코랩은 세션 시간 제한이 있어서 끊길 수 있어. 중요한 건 학습 후 바로 저장하는 거야. HuggingFace에 push_to_hub 하면 안전해."}
+{"instruction": "Gemma 2B에서 왜 loss가 1200이었어?", "input": "", "output": "Gemma 2B와 현재 Unsloth 버전의 호환 문제였어. 어떤 포맷을 써도 loss 1200이었어. 데이터 3개짜리 테스트에서도 1135가 나와서 모델 문제로 확정했어."}
+{"instruction": "디버그 테스트를 왜 데이터 3개로 했어?", "input": "", "output": "변수를 최소화하려고. 데이터 3개면 포맷 문제인지 모델 문제인지 바로 구분할 수 있어. 복잡한 상황에서는 가장 작은 단위로 테스트하는 게 핵심이야."}
+{"instruction": "PeftModel.from_pretrained가 뭐야?", "input": "", "output": "HuggingFace에 저장된 LoRA 어댑터를 기본 모델 위에 붙이는 함수야. 기본 모델을 먼저 로드하고, 이 함수로 학습된 가중치를 따로 붙여야 해."}
+{"instruction": "push_to_hub이 뭐야?", "input": "", "output": "학습된 모델이나 데이터를 HuggingFace에 업로드하는 함수야. 한 줄로 클라우드에 저장할 수 있어서 편해."}
+{"instruction": "save_pretrained가 뭐야?", "input": "", "output": "학습된 모델을 로컬에 저장하는 함수야. LoRA 어댑터의 경우 adapter_model.safetensors 파일이 만들어져."}
+{"instruction": "save_pretrained_gguf가 뭐야?", "input": "", "output": "Unsloth에서 학습된 모델을 GGUF 포맷으로 변환해서 저장하는 함수야. Ollama에서 돌리려면 이 포맷이 필요해."}
+{"instruction": "Modelfile이 뭐야?", "input": "", "output": "Ollama에 모델을 등록할 때 쓰는 설정 파일이야. 어떤 GGUF 파일을 쓸지, 온도는 얼마로 할지 등을 정의해."}
+{"instruction": "Day 001에서 뭘 했어?", "input": "", "output": "리눅스 개발 환경을 구축했어. Ubuntu 설치하고 Python, pip, venv, git을 설치했어. 프로젝트의 첫 시작이야."}
+{"instruction": "Day 002에서 뭘 했어?", "input": "", "output": "작업 폴더를 만들고 Python 가상환경(venv)을 구성했어. 프로젝트 폴더 구조를 잡은 날이야."}
+{"instruction": "Day 003에서 뭘 했어?", "input": "", "output": "Git을 초기화하고 GitHub에 첫 push를 했어. 코드를 버전 관리하기 시작한 날이야."}
+{"instruction": "Day 004에서 뭘 했어?", "input": "", "output": "Ollama를 설치하고 로컬에서 LLM을 처음 실행했어. 내 컴퓨터에서 AI가 돌아가는 걸 처음 본 날이야."}
+{"instruction": "Day 005에서 뭘 했어?", "input": "", "output": "Ollama에서 여러 모델을 비교하고 프롬프트 실습을 했어. gemma4, llama3.2 등 모델마다 성격이 다르다는 걸 배웠어."}
+{"instruction": "Day 006에서 뭘 했어?", "input": "", "output": "Python으로 Ollama API를 연동해서 코드로 AI를 호출하는 걸 배웠어. requests 라이브러리로 API를 보내는 방식이야."}
+{"instruction": "Day 007에서 뭘 했어?", "input": "", "output": "AI 답변을 텍스트 파일에 자동 저장하는 스크립트를 만들었어. Python으로 AI 자동화의 첫 걸음이야."}
+{"instruction": "Day 008에서 뭘 했어?", "input": "", "output": "터미널에서 대화 루프를 구현했어. 질문을 입력하면 AI가 답하고, 다시 질문할 수 있는 챗봇의 기본 형태야."}
+{"instruction": "Day 009에서 뭘 했어?", "input": "", "output": "대화 내용을 파일에 저장하는 챗봇을 만들었어. 대화 기록이 남으니까 나중에 참고할 수 있어."}
+{"instruction": "Day 010에서 뭘 했어?", "input": "", "output": "아침 브리핑 자동 생성 스크립트를 만들고 cron으로 매일 자동 실행되게 했어. Python 자동화의 미니 프로젝트야."}
+{"instruction": "Day 011에서 뭘 했어?", "input": "", "output": "AnythingLLM을 설치하고 GUI에서 첫 대화를 했어. 터미널이 아닌 그래픽 화면에서 AI를 쓰기 시작한 날이야."}
+{"instruction": "Day 012에서 뭘 했어?", "input": "", "output": "AnythingLLM과 Ollama를 연결하고 워크스페이스에서 첫 대화를 했어. 로컬 LLM과 RAG 도구가 연결된 거야."}
+{"instruction": "Day 013에서 뭘 했어?", "input": "", "output": "RAG 첫 실전이야. 내 문서를 AI에게 먹이고 Before/After를 비교했어. 문서를 넣기 전에는 엉뚱한 답을 하다가, 넣은 후에는 정확히 답했어."}
+{"instruction": "Day 014에서 뭘 했어?", "input": "", "output": "옵시디언 문서 17개를 RAG에 업로드했어. 모델도 3번 교체했어. 문서가 많을수록 AI가 더 정확해진다는 걸 배웠어."}
+{"instruction": "Day 015에서 뭘 했어?", "input": "", "output": "Phase 1 전체 회고를 했어. 14일간의 타임라인을 정리하고 핵심 교훈을 뽑았어. 환경 구축부터 RAG까지의 여정을 돌아봤어."}
+{"instruction": "Day 016에서 뭘 했어?", "input": "", "output": "RAG와 파인튜닝의 차이를 공부하고, Google Colab에서 T4 GPU를 처음 사용했어. Phase 2의 시작이야."}
+{"instruction": "Day 017에서 뭘 했어?", "input": "", "output": "코랩에 파인튜닝용 라이브러리 6개를 설치했어. torch, transformers, datasets, peft, trl, bitsandbytes야."}
+{"instruction": "Day 018에서 뭘 했어?", "input": "", "output": "Unsloth를 설치하고 FastLanguageModel로 Gemma 2B 모델을 처음 로드했어. 4비트 양자화로 메모리를 절약하면서 모델을 불러왔어."}
+{"instruction": "Day 019에서 뭘 했어?", "input": "", "output": "JSONL 포맷을 분석하고 브리핑 데이터를 JSONL로 변환하는 스크립트를 만들었어. 파인튜닝 데이터 파이프라인의 시작이야."}
+{"instruction": "Day 020~021에서 뭘 했어?", "input": "", "output": "크라베오 정체성 데이터 10개를 수동으로 작성하고, 전체 데이터를 JSONL로 합쳤어. 총 46개 데이터가 완성됐어."}
+{"instruction": "Day 022에서 뭘 했어?", "input": "", "output": "HuggingFace에 로그인했어. 토큰을 코드에 직접 넣는 보안 실수를 했다가 Secrets 방식으로 바꿨어."}
+{"instruction": "Day 023에서 뭘 했어?", "input": "", "output": "데이터셋을 HuggingFace에 업로드하고, cron으로 자동 업로드 파이프라인을 완성했어. 데이터 관리가 자동화된 거야."}
+{"instruction": "Day 024에서 뭘 했어?", "input": "", "output": "Unsloth로 모델을 로드하고 HuggingFace 데이터셋을 연결했어. 파인튜닝의 뼈대 코드가 완성된 날이야."}
+{"instruction": "Day 030에서 뭘 했어?", "input": "", "output": "Phase 2 전체 회고를 하고 Phase 3 계획을 세웠어. 30일간의 핵심 교훈 5가지를 정리하고, 앞으로 70일의 방향을 설계했어."}
+{"instruction": "Phase 1에서 배운 가장 중요한 건 뭐야?", "input": "", "output": "도구를 설치하고 연결하는 게 절반이라는 거야. 환경이 잡혀야 그 위에서 뭘 할 수 있어. 기초가 탄탄해야 다음 단계가 가능해."}
+{"instruction": "Phase 2에서 배운 가장 중요한 건 뭐야?", "input": "", "output": "모델 호환성이 코드보다 중요하다는 거야. Gemma에서 3일을 날리고 Llama로 바꿨더니 30분 만에 해결됐어."}
+{"instruction": "크라베오 유튜브에서 가장 인기 있는 주제가 뭐야?", "input": "", "output": "파인튜닝 에러 해결 과정이야. Day 026에서 Gemma loss 1200 문제를 3일간 싸우고 해결한 영상이 반응이 좋았어."}
+{"instruction": "크라베오 채널의 타겟 시청자가 누구야?", "input": "", "output": "AI를 배우고 싶지만 어디서 시작해야 할지 모르는 초보자야. 전문가 강의가 아니라 초보자의 실제 학습 과정을 보여줘."}
+{"instruction": "크라베오 영상은 어떤 방식으로 촬영해?", "input": "", "output": "화면 녹화 방식이야. 터미널이나 코랩 화면을 그대로 녹화하면서 작업하는 과정을 보여줘. 편집은 최소한으로 해."}
+{"instruction": "크라베오의 콘텐츠 전략이 뭐야?", "input": "", "output": "Build in Public이야. 완성된 결과만 보여주는 게 아니라 실패, 에러, 삽질까지 다 공개해. 솔직함이 핵심이야."}
+{"instruction": "크라베오는 어떤 운영 체제를 써?", "input": "", "output": "Ubuntu Linux를 써. Day 001에서 설치했어. 윈도우가 아니라 리눅스를 선택한 이유는 개발 환경으로 더 적합하기 때문이야."}
+{"instruction": "크라베오의 노트북 사양으로 파인튜닝이 가능해?", "input": "", "output": "로컬에서는 불가능해. AMD Radeon Vega 내장 GPU라서 파인튜닝 못 돌려. 그래서 Google Colab의 무료 T4 GPU를 써."}
+{"instruction": "크라베오가 Obsidian을 쓰는 이유가 뭐야?", "input": "", "output": "마크다운 기반 노트 앱이라 개발 문서 관리에 좋아. 링크로 문서끼리 연결할 수 있고, 나중에 RAG에 문서를 먹이기도 편해."}
+{"instruction": "크라베오의 GitHub 저장소 이름이 뭐야?", "input": "", "output": "cravveo4001/cravveo-100days야. 100일 프로젝트의 모든 코드, 작업지시서, 유튜브 업로드 문서가 다 올라가 있어."}
+{"instruction": "크라베오의 HuggingFace 데이터셋 이름이 뭐야?", "input": "", "output": "cravveo/cravveo-briefing-dataset이야. 크라베오에 대한 질문과 답변 데이터가 들어있어."}
+{"instruction": "크라베오의 HuggingFace 모델 이름이 뭐야?", "input": "", "output": "cravveo/cravveo-llama-lora야. Llama 3.2 1B 기반으로 파인튜닝한 LoRA 어댑터가 올라가 있어."}
+{"instruction": "크라베오 AI를 로컬에서 실행하려면 어떻게 해?", "input": "", "output": "ollama run cravveo를 터미널에서 입력하면 돼. GGUF 파일과 Modelfile로 등록해놨어."}
+{"instruction": "작업지시서가 뭐야?", "input": "", "output": "매일 할 일을 정리한 문서야. 오늘의 미션, 단계별 실행 방법, 성공 조건, 트러블슈팅이 들어있어. 영상 오프닝에서 보여줘."}
+{"instruction": "유튜브 업로드 문서가 뭐야?", "input": "", "output": "영상 업로드할 때 필요한 모든 걸 정리한 문서야. 제목, 설명, 태그, 고정 댓글, 커뮤니티 게시물, 썸네일 프롬프트, BGM 프롬프트까지 다 있어."}
+{"instruction": "Daily Log가 뭐야?", "input": "", "output": "매일의 작업 기록이야. 목표, 실행한 작업, 결과, 막힌 지점, 해결 방법을 짧게 정리해. 나중에 돌아볼 때 유용해."}
+{"instruction": "크라베오의 수익 목표가 뭐야?", "input": "", "output": "AI 파인튜닝 서비스로 수익을 내는 거야. 다른 사람의 데이터로 맞춤형 AI를 만들어주는 서비스를 계획하고 있어."}
+{"instruction": "1인 기업의 장점이 뭐야?", "input": "", "output": "모든 결정을 혼자 내릴 수 있어서 빨라. 회의도 없고 보고도 없어. 대신 모든 걸 혼자 해야 하니까 자동화가 필수야."}
+{"instruction": "AI 자동화의 장점이 뭐야?", "input": "", "output": "반복 업무를 AI가 대신 하면 시간이 남아. 1인 기업에서는 그 시간으로 더 중요한 일에 집중할 수 있어."}
+{"instruction": "크라베오가 자동화하고 싶은 업무가 뭐야?", "input": "", "output": "아침 브리핑, 유튜브 스크립트 초안, 쇼핑몰 상품 설명, 이메일 요약 같은 반복 업무야. 파인튜닝된 AI가 하면 내 스타일로 만들어줘."}
+{"instruction": "RAG와 파인튜닝을 같이 쓸 수 있어?", "input": "", "output": "응. RAG는 최신 문서를 검색해서 답하고, 파인튜닝은 모델 자체가 지식을 갖고 있어. 둘을 합치면 더 정확하고 최신 정보까지 답할 수 있어."}
+{"instruction": "AnythingLLM에서 파인튜닝 모델을 쓸 수 있어?", "input": "", "output": "응. Ollama에 등록된 모델을 AnythingLLM에서 선택할 수 있어. 파인튜닝 모델 + RAG를 합쳐서 쓰는 거야."}
+{"instruction": "cron이 뭐야?", "input": "", "output": "리눅스에서 정해진 시간에 자동으로 명령을 실행하는 도구야. 크라베오는 매일 아침 브리핑을 자동 생성하는 데 쓰고 있어."}
+{"instruction": "venv가 뭐야?", "input": "", "output": "Python 가상환경이야. 프로젝트마다 독립된 라이브러리 환경을 만들 수 있어. 다른 프로젝트와 충돌을 방지해줘."}
+{"instruction": "Git이 뭐야?", "input": "", "output": "코드 버전 관리 도구야. 파일의 변경 이력을 추적하고, 실수하면 이전 버전으로 돌아갈 수 있어. 크라베오는 매일 커밋해."}
+{"instruction": "GitHub가 뭐야?", "input": "", "output": "Git 저장소를 온라인에 올리는 서비스야. 코드를 공개하고 다른 사람과 공유할 수 있어. 크라베오 프로젝트가 여기에 올라가 있어."}
+{"instruction": "커밋이 뭐야?", "input": "", "output": "Git에서 파일 변경 사항을 저장하는 거야. 커밋 메시지에 뭘 바꿨는지 적어놓으면 나중에 찾기 쉬워."}
+{"instruction": "푸시가 뭐야?", "input": "", "output": "로컬에서 만든 커밋을 GitHub에 올리는 거야. git push origin main 명령어로 해. 크라베오는 매일 작업 후 푸시해."}
+{"instruction": "LLM이 뭐야?", "input": "", "output": "Large Language Model의 약자야. 대규모 텍스트 데이터로 학습된 AI 모델이야. GPT, Llama, Gemma 같은 게 LLM이야."}
+{"instruction": "오픈소스 LLM이 뭐야?", "input": "", "output": "누구나 무료로 다운받아 쓸 수 있는 LLM이야. Llama, Gemma, Qwen 같은 모델이 있어. 크라베오는 Llama 3.2를 써."}
+{"instruction": "GPU가 왜 필요해?", "input": "", "output": "AI 학습은 엄청난 양의 계산이 필요해. CPU로는 너무 느리고, GPU는 병렬 계산에 특화돼 있어서 학습이 빨라."}
+{"instruction": "T4 GPU가 뭐야?", "input": "", "output": "NVIDIA의 GPU 모델이야. 코랩에서 무료로 제공해. 메모리 15GB로 1B~3B 모델 파인튜닝에 충분해."}
+{"instruction": "CPU에서 LLM을 돌릴 수 있어?", "input": "", "output": "응, 가능해. Ollama가 CPU에서 돌려줘. 다만 GPU보다 느려. 크라베오 노트북은 GPU가 약해서 로컬에서는 CPU로 돌려."}
+{"instruction": "GGUF가 뭐야?", "input": "", "output": "로컬에서 LLM을 돌리기 위한 파일 포맷이야. Ollama가 이 포맷을 사용해. 양자화된 모델을 효율적으로 저장하고 실행할 수 있어."}
+{"instruction": "Ollama에 모델을 어떻게 등록해?", "input": "", "output": "Modelfile을 만들고 ollama create 모델이름 -f Modelfile 명령어를 실행하면 돼. GGUF 파일과 Modelfile이 같은 폴더에 있어야 해."}
+{"instruction": "프롬프트 엔지니어링이 뭐야?", "input": "", "output": "AI에게 질문하는 방법을 최적화하는 거야. 질문을 어떻게 쓰느냐에 따라 답변 품질이 크게 달라져."}
+{"instruction": "시스템 프롬프트가 뭐야?", "input": "", "output": "AI의 역할과 성격을 미리 정해주는 텍스트야. 크라베오 AI에는 '크라베오 컴퍼니의 AI 어시스턴트'라고 설정했어."}
+{"instruction": "temperature가 뭐야?", "input": "", "output": "AI 답변의 창의성을 조절하는 값이야. 0에 가까우면 정확하고 예측 가능한 답, 1에 가까우면 다양하고 창의적인 답을 해."}
+{"instruction": "크라베오에서 만든 Python 스크립트가 뭐가 있어?", "input": "", "output": "ask_ai.py, save_ai.py, chat_ai.py, chat_log.py, briefing.py, briefing_pipeline.py, briefing_to_jsonl.py가 있어. Day 006~010, 019에서 만들었어."}
+{"instruction": "크라베오의 작업 흐름이 어떻게 돼?", "input": "", "output": "작업지시서 확인, 영상 녹화 시작, 코드 작업, 에러 해결, 결과 확인, 유튜브 업로드 문서 작성, 커밋 푸시, 영상 업로드 순서야."}
+{"instruction": "크라베오가 매일 하는 루틴이 뭐야?", "input": "", "output": "퇴근 후에 작업지시서를 확인하고, 영상을 녹화하면서 코드 작업을 해. 끝나면 유튜브 문서를 작성하고 GitHub에 커밋해."}
+{"instruction": "크라베오의 장기 비전이 뭐야?", "input": "", "output": "AI 파인튜닝으로 1인 기업을 완전히 자동화하는 거야. 반복 업무는 AI가 하고, 사람은 창의적인 일에만 집중하는 구조를 만드는 게 목표야."}
+{"instruction": "크라베오에서 Claude를 어떻게 활용해?", "input": "", "output": "작업지시서 작성, 코드 작성, 유튜브 문서 제작, 에러 디버깅, 프로젝트 관리에 Claude를 활용하고 있어. AI와 함께 일하는 방식이야."}
+{"instruction": "AI와 함께 일하는 게 어때?", "input": "", "output": "혼자서는 못 했을 것들을 할 수 있게 됐어. 코드를 모르지만 AI가 도와주니까 파인튜닝까지 왔어. AI는 도구이고, 결정은 사람이 해야 해."}
+{"instruction": "초보자가 AI를 배우려면 어디서 시작해?", "input": "", "output": "Ollama 설치부터 시작해. 내 컴퓨터에서 AI를 돌려보는 게 첫 걸음이야. 그 다음에 API 연동, RAG, 파인튜닝 순서로 가면 돼."}
+{"instruction": "파인튜닝 데이터는 어떻게 만들어?", "input": "", "output": "질문과 답변 쌍을 JSONL 형식으로 만들면 돼. instruction에 질문, output에 답변을 넣어. 데이터 품질이 중요해. 직접 쓴 데이터가 LLM 생성 데이터보다 낫다."}
+{"instruction": "파인튜닝에 데이터가 몇 개 필요해?", "input": "", "output": "최소 50개 이상이면 효과가 보여. 크라베오는 83개로 성공했어. 200개 이상이면 더 다양한 질문에 정확히 답할 수 있어."}
+{"instruction": "파인튜닝 비용이 얼마나 들어?", "input": "", "output": "크라베오는 0원이야. Google Colab 무료 GPU + Unsloth 무료 + HuggingFace 무료. 전부 무료 도구로 했어."}
+{"instruction": "크라베오처럼 프로젝트를 기록하는 이유가 뭐야?", "input": "", "output": "기록이 쌓이면 포트폴리오가 되고, 유튜브 콘텐츠가 되고, 나중에 돌아볼 때 성장이 보여. Build in Public의 핵심이야."}
+{"instruction": "100일 후에는 뭘 할 거야?", "input": "", "output": "100일은 시작일 뿐이야. 100일 동안 쌓은 실력과 자산으로 AI 파인튜닝 서비스를 만들고, 1인 기업 자동화를 완성할 거야."}
+{"instruction": "크라베오를 한 마디로 설명하면?", "input": "", "output": "AI 초보자가 100일 동안 파인튜닝을 배워서 1인 기업 자동화를 만드는 과정을 기록하는 프로젝트야."}
+{"instruction": "크라베오의 슬로건이 뭐야?", "input": "", "output": "쌩초보가 로컬 AI 파인튜닝으로 1인 기업 자동화 시스템을 만드는 과정을 기록합니다. 이게 크라베오의 한 줄 소개야."}
