@@ -189,4 +189,91 @@ Visual style:
 
 ---
 
+## Gemini BGM 프롬프트 10개
+
+### 1. 기본 배경음
+
+```text
+Cravveo Company Day 031 영상에 사용할 배경음악 콘셉트를 만들어줘.
+2일간 모델 크기, 양자화, temperature를 바꿔가며 삽질했는데 진짜 원인은 Modelfile TEMPLATE 한 줄이었어.
+"답은 이렇게 가까이 있었다니..." 하는 허탈한 안도감이 담겼으면 좋겠어.
+no vocals, 가사 없음, warm electronic, bittersweet relief, 85 BPM, loopable.
+```
+
+### 2. 1일차 시도 파트 (데이터 확장 + 3B)
+
+```text
+배경음악을 만들어줘. 데이터를 184개로 확장하고 3B 모델로 업그레이드하는 파트야.
+"이번에는 확실히 되겠지" 하는 자신감과 기대가 담겼으면 좋겠어.
+confident upgrade, fresh start, energetic electronic, no vocals, 가사 없음, loopable.
+```
+
+### 3. 첫 실패 — 3B Unknown 파트
+
+```text
+배경음악을 만들어줘. 코랩에서 완벽했던 3B 모델이 Ollama에서 "Unknown"이라고 답하는 파트야.
+"왜 또..." 하는 답답함과 당혹감이 담겼으면 좋겠어.
+unexpected failure, frustrated confusion, tense electronic, no vocals, 가사 없음, loopable.
+```
+
+### 4. 삽질 반복 파트 (1B, q4, q8, temperature)
+
+```text
+배경음악을 만들어줘. 모델을 1B로 바꿔보고, q4를 q8로 바꿔보고, temperature를 조절해보는 파트야.
+뭘 바꿔도 해결이 안 되는 반복되는 좌절이 담겼으면 좋겠어.
+repeated attempts, diminishing hope, minor key electronic, no vocals, 가사 없음, loopable.
+```
+
+### 5. 2일차 재도전 파트
+
+```text
+배경음악을 만들어줘. 하루 쉬고 다시 도전하는 2일차 시작 파트야.
+"다른 각도로 접근해보자" 하는 차분한 결의가 담겼으면 좋겠어.
+fresh perspective, calm determination, clean electronic, no vocals, 가사 없음, loopable.
+```
+
+### 6. 원인 발견 — TEMPLATE 파트
+
+```text
+배경음악을 만들어줘. Modelfile의 TEMPLATE이 문제였다는 걸 발견하는 순간이야.
+학습 형식과 실행 형식이 달라서 AI가 질문을 못 알아들었던 거야.
+"이게 원인이었어?!" 하는 깨달음과 허탈한 웃음이 담겼으면 좋겠어.
+eureka moment, facepalm realization, bright electronic, no vocals, 가사 없음, loopable.
+```
+
+### 7. 해결 — 정확한 답변 파트
+
+```text
+배경음악을 만들어줘. TEMPLATE을 바꾸고 "크라베오 컴퍼니가 뭐야?"에 정확한 답이 나오는 파트야.
+2일간의 삽질이 한 줄로 해결된 순간의 안도감과 감동이 담겼으면 좋겠어.
+problem solved, emotional relief, warm triumphant electronic, no vocals, 가사 없음, loopable.
+```
+
+### 8. 다큐멘터리 톤
+
+```text
+Create understated documentary background music for a beginner's 100-day AI fine-tuning journey.
+Episode theme: Day 031 — 2 days of debugging, tried model sizes, quantization methods, temperature tuning. The real cause was a one-line Modelfile TEMPLATE mismatch between training format and inference format. Build in Public.
+Mood: "the answer was right there all along", humbling realization.
+Style: warm electronic, minimal, no vocals, 가사 없음.
+```
+
+### 9. 오프닝 15초
+
+```text
+Cravveo Company Day 031 영상 오프닝에 쓸 15초짜리 짧은 음악을 만들어줘.
+"2일간의 삽질 끝에 진짜 원인을 찾았다 — 모델이 아니라 형식이었다" 하는 예고 느낌이 담겼으면 좋겠어.
+short opener, mystery revealed preview, electronic, no vocals, 가사 없음.
+```
+
+### 10. 엔딩
+
+```text
+Create calm but insightful ending music for a YouTube episode where a beginner spent 2 days debugging AI model issues, only to discover the real problem was a one-line template format mismatch.
+Mood: "simple answers hide behind complex problems", humbled but wiser.
+Style: warm electronic pad, gentle resolution, no vocals, 가사 없음, 80 BPM.
+```
+
+---
+
 [[2026-06-25_Day031_Work_Order|Day 031 작업지시서]] | [[../30일차/Day030_YouTube_Upload|← Day 030 유튜브]] | [[../Cravveo_100Day_Master_Guide]]
