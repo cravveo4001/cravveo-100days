@@ -222,7 +222,49 @@ Mood: "it all comes together now", quiet satisfaction.
 Style: warm electronic, minimal, no vocals, 가사 없음.
 ```
 
-### 5. 엔딩
+### 5. 테스트 질문 파트
+
+```text
+배경음악을 만들어줘. AnythingLLM에서 여러 질문을 테스트하는 파트야.
+크라베오, Build in Public, 기술 스택 등 다양한 질문을 하나씩 던져보는 시간이야.
+"얼마나 잘 답할까..." 하는 호기심과 긴장이 담겼으면 좋겠어.
+curious testing, one by one, steady electronic, no vocals, 가사 없음, loopable.
+```
+
+### 6. 정확한 답변 파트
+
+```text
+배경음악을 만들어줘. "크라베오가 뭐야?"에 정확한 답이 나오고 RAG 출처까지 보이는 파트야.
+"진짜 된다!" 하는 기쁨이 담겼으면 좋겠어.
+confirmed success, joyful verification, bright electronic, no vocals, 가사 없음, loopable.
+```
+
+### 7. 부족한 답변 파트
+
+```text
+배경음악을 만들어줘. Day 026 질문에 엉뚱한 답이 나오는 파트야.
+"기본은 되는데 세부 사항은 아직이구나..." 하는 아쉽지만 이해하는 분위기가 담겼으면 좋겠어.
+almost there, accepting limitations, gentle electronic, no vocals, 가사 없음, loopable.
+```
+
+### 8. 32일 여정 회고 파트
+
+```text
+배경음악을 만들어줘. Day 001부터 032까지를 짧게 돌아보는 파트야.
+리눅스 설치, Ollama, AnythingLLM, 코랩, 파인튜닝, GGUF, 그리고 오늘 통합까지.
+"여기까지 오는 데 32일 걸렸다" 하는 뿌듯함이 담겼으면 좋겠어.
+looking back, proud journey, warm nostalgic electronic, no vocals, 가사 없음, loopable.
+```
+
+### 9. 오프닝 15초
+
+```text
+Cravveo Company Day 032 영상 오프닝에 쓸 15초짜리 짧은 음악을 만들어줘.
+"오늘 Phase 1과 Phase 2가 드디어 합쳐진다" 하는 기대감이 담겼으면 좋겠어.
+short opener, two worlds merging, anticipation, electronic, no vocals, 가사 없음.
+```
+
+### 10. 엔딩
 
 ```text
 Create calm ending music for a YouTube episode where a beginner connected their fine-tuned AI model to AnythingLLM, combining fine-tuning knowledge with RAG document search for the first time.
