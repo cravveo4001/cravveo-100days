@@ -22,3 +22,4 @@ installer.sh
 __pycache__/
 briefing_*.txt
 *.gguf
+유튜브 분석/
