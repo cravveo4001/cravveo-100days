@@ -47,7 +47,8 @@
 | Day 031 | 2일간의 삽질 — 모델이 아니라 형식(TEMPLATE)이 문제였다 | 2-day debug — format mismatch was the real cause | ✅ 완료 |
 | Day 032 | AnythingLLM + 파인튜닝 모델 통합 — 크라베오 AI 어시스턴트 | AnythingLLM + fine-tuned model — Cravveo AI assistant | ✅ 완료 |
 | Day 033 | Python으로 크라베오 AI 호출 + 아침 브리핑 생성 테스트 | Python Ollama API + morning briefing test | ✅ 완료 |
-| Day 034~ | Phase 3: cron 자동화 연결 + 실전 활용 | Phase 3: cron automation + practical use | ⏳ 예정 |
+| Day 034 | 아침 브리핑 자동화를 크라베오 AI로 업그레이드 — cron 연결 완성 | Morning briefing upgraded to Cravveo AI — cron connected | ✅ 완료 |
+| Day 035~ | Phase 3: 답변 품질 개선 + 실전 활용 | Phase 3: quality improvement + practical use | ⏳ 예정 |
 | Day 060~ | 가중치 회수 → GGUF → Ollama 등록 | Weights → GGUF → Ollama deploy | ⏳ 예정 |
 | Day 080~ | Obsidian + 로컬 RAG 연결 | Obsidian + local RAG integration | ⏳ 예정 |
 | Day 100 | 1인 기업 자동화 시스템 완성 | One-person business automation complete | 🎯 목표 |
@@ -129,3 +130,4 @@ cravveo-100days/
 | Day 031 | [작업지시서](31일차/2026-06-25_Day031_Work_Order.md) | [업로드 문서](31일차/Day031_YouTube_Upload.md) |
 | Day 032 | [작업지시서](32일차/2026-06-27_Day032_Work_Order.md) | [업로드 문서](32일차/Day032_YouTube_Upload.md) |
 | Day 033 | [작업지시서](33일차/2026-06-28_Day033_Work_Order.md) | [업로드 문서](33일차/Day033_YouTube_Upload.md) |
+| Day 034 | [작업지시서](34일차/2026-06-29_Day034_Work_Order.md) | [업로드 문서](34일차/Day034_YouTube_Upload.md) |
