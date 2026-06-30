@@ -23,3 +23,4 @@ __pycache__/
 briefing_*.txt
 *.gguf
 유튜브 분석/
+*.mp4.log
