@@ -51,7 +51,8 @@
 | Day 035 | 유튜브 스크립트 자동 생성 함수 완성 + 마이크로 첫 음성 녹음 | YouTube script generator + first mic narration | ✅ 완료 |
 | Day 036 | Phase 3 점검 — 지금까지 만든 것 정리 + 64일 수정 로드맵 확정 | Phase 3 review — inventory of completed work + revised 64-day roadmap | ✅ 완료 |
 | Day 037 | Obsidian 데이터 추출 스크립트 — Daily_Log 36개 → 203개 Q&A 자동 생성 | Obsidian data extractor — 36 daily logs → 203 Q&A pairs auto-generated | ✅ 완료 |
-| Day 038~ | 286개 데이터로 Colab 재학습 + 결과 비교 | Retrain on Colab with 286 samples + compare results | ⏳ 예정 |
+| Day 038 | q4_0 양자화 변환 + AnythingLLM RAG 버그 3개 발견/수정 (에이전트 모드, 검색 설정, 문맥 조각 수) | q4_0 quantization + found/fixed 3 AnythingLLM RAG bugs (agent mode, search settings, context chunk count) | ✅ 완료 |
+| Day 039~ | 환각 문제 심화 분석 + RAG 개선 | Deeper hallucination analysis + RAG improvement | ⏳ 예정 |
 | Day 100 | 1인 기업 자동화 시스템 완성 | One-person business automation complete | 🎯 목표 |
 
 ---
@@ -135,3 +136,4 @@ cravveo-100days/
 | Day 035 | [작업지시서](35일차/2026-06-30_Day035_Work_Order.md) | [업로드 문서](35일차/Day035_YouTube_Upload.md) |
 | Day 036 | [작업지시서](36일차/2026-07-02_Day036_Work_Order.md) | [업로드 문서](36일차/Day036_YouTube_Upload.md) |
 | Day 037 | [작업지시서](37일차/2026-07-03_Day037_Work_Order.md) | [업로드 문서](37일차/Day037_YouTube_Upload.md) |
+| Day 038 | [작업지시서](38일차/2026-07-04_Day038_Work_Order.md) | - |
