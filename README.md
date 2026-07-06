@@ -136,4 +136,4 @@ cravveo-100days/
 | Day 035 | [작업지시서](35일차/2026-06-30_Day035_Work_Order.md) | [업로드 문서](35일차/Day035_YouTube_Upload.md) |
 | Day 036 | [작업지시서](36일차/2026-07-02_Day036_Work_Order.md) | [업로드 문서](36일차/Day036_YouTube_Upload.md) |
 | Day 037 | [작업지시서](37일차/2026-07-03_Day037_Work_Order.md) | [업로드 문서](37일차/Day037_YouTube_Upload.md) |
-| Day 038 | [작업지시서](38일차/2026-07-04_Day038_Work_Order.md) | - |
+| Day 038 | [작업지시서](38일차/2026-07-04_Day038_Work_Order.md) | [업로드 문서](38일차/Day038_YouTube_Upload.md) |
