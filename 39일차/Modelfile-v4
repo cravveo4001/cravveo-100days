@@ -1,0 +1,8 @@
+FROM /home/c/finetuning-project/39일차/llama-3.2-3b-instruct.Q4_K_M.gguf
+TEMPLATE "질문: {{ .Prompt }}
+답변: {{ .Response }}"
+PARAMETER temperature 0.2
+PARAMETER num_ctx 2048
+PARAMETER repeat_penalty 1.5
+PARAMETER num_predict 500
+PARAMETER stop "질문:"
