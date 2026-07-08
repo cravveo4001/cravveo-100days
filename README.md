@@ -53,8 +53,9 @@
 | Day 037 | Obsidian 데이터 추출 스크립트 — Daily_Log 36개 → 203개 Q&A 자동 생성 | Obsidian data extractor — 36 daily logs → 203 Q&A pairs auto-generated | ✅ 완료 |
 | Day 038 | q4_0 양자화 변환 + AnythingLLM RAG 버그 3개 발견/수정 (에이전트 모드, 검색 설정, 문맥 조각 수) | q4_0 quantization + found/fixed 3 AnythingLLM RAG bugs (agent mode, search settings, context chunk count) | ✅ 완료 |
 | Day 039 | q4_K_M 재변환으로 모델 품질 문제 해결 + RAG 문서 보강 실험(실패, 구조적 한계 확인) | Fixed model quality with q4_K_M re-conversion + RAG document-hint experiment (failed, confirmed structural limit) | ✅ 완료 |
-| Day 040~ | 날짜→Day 번호 룩업 테이블 구현 | Date-to-Day-number lookup table | ⏳ 예정 |
-| Day 100 | 1인 기업 자동화 시스템 완성 | One-person business automation complete | 🎯 목표 |
+| Day 040 | 날짜→Day 룩업 프로토타입 완성 + 300일 로드맵 재점검 + 불편함_기록.md 신설 | Date-lookup prototype + 300-day roadmap re-check + started pain-points log | ✅ 완료 |
+| Day 041~ | Part 1 복귀: 학습 데이터 정체성 오류 수정 + 파인튜닝 고도화 | Back to Part 1: fix training-data identity error + fine-tuning improvements | ⏳ 예정 |
+| Day 100 | Part 1 마무리 | Part 1 wrap-up | 🎯 목표 |
 
 ---
 
@@ -67,6 +68,9 @@
 **English**
 This repository documents a 100-day challenge where a complete beginner builds a local AI fine-tuning workflow and one-person business automation from scratch.
 This is not an expert tutorial. It's a raw learning journal — including errors, dead ends, and breakthroughs.
+
+📍 [300일 로드맵 | 300-Day Roadmap](2026-07-01_Special_Roadmap_Design.md) — Part 1(Day 1~100)은 기존 툴 사용 + 불편함 기록, Part 3(Day 201~300)에서 직접 개발
+📝 [불편함 기록 | Pain Points Log](불편함_기록.md) — Part 1에서 발견한 기존 툴의 한계들
 
 ---
 
@@ -139,3 +143,4 @@ cravveo-100days/
 | Day 037 | [작업지시서](37일차/2026-07-03_Day037_Work_Order.md) | [업로드 문서](37일차/Day037_YouTube_Upload.md) |
 | Day 038 | [작업지시서](38일차/2026-07-04_Day038_Work_Order.md) | [업로드 문서](38일차/Day038_YouTube_Upload.md) |
 | Day 039 | [작업지시서](39일차/2026-07-07_Day039_Work_Order.md) | [업로드 문서](39일차/Day039_YouTube_Upload.md) |
+| Day 040 | [작업지시서](40일차/2026-07-08_Day040_Work_Order.md) | - |
