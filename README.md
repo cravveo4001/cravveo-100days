@@ -54,7 +54,8 @@
 | Day 038 | q4_0 양자화 변환 + AnythingLLM RAG 버그 3개 발견/수정 (에이전트 모드, 검색 설정, 문맥 조각 수) | q4_0 quantization + found/fixed 3 AnythingLLM RAG bugs (agent mode, search settings, context chunk count) | ✅ 완료 |
 | Day 039 | q4_K_M 재변환으로 모델 품질 문제 해결 + RAG 문서 보강 실험(실패, 구조적 한계 확인) | Fixed model quality with q4_K_M re-conversion + RAG document-hint experiment (failed, confirmed structural limit) | ✅ 완료 |
 | Day 040 | 날짜→Day 룩업 프로토타입 완성 + 300일 로드맵 재점검 + 불편함_기록.md 신설 | Date-lookup prototype + 300-day roadmap re-check + started pain-points log | ✅ 완료 |
-| Day 041~ | Part 1 복귀: 학습 데이터 정체성 오류 수정 + 파인튜닝 고도화 | Back to Part 1: fix training-data identity error + fine-tuning improvements | ⏳ 예정 |
+| Day 041 | 학습 데이터 오염 발견(92개 중 40개 무관) → 20개로 교체 + 재학습 → cravveo:v5 | Found training-data contamination (40/92 unrelated) → replaced with 20 clean samples + retrained → cravveo:v5 | ✅ 완료 |
+| Day 042~ | Obsidian/GitHub 데이터 기반 파인튜닝 고도화 | Fine-tuning improvements via Obsidian/GitHub data | ⏳ 예정 |
 | Day 100 | Part 1 마무리 | Part 1 wrap-up | 🎯 목표 |
 
 ---
@@ -92,7 +93,7 @@ cravveo-100days/
 |------|----------|------|-------|
 | OS | OS | Ubuntu Linux | Ubuntu Linux |
 | 로컬 LLM | Local LLM | Ollama | Ollama |
-| 파인튜닝 | Fine-tuning | Google Colab + Unsloth (LoRA) + Llama 3.2 1B | Google Colab + Unsloth (LoRA) + Llama 3.2 1B |
+| 파인튜닝 | Fine-tuning | Google Colab + Unsloth (LoRA) + Llama 3.2 3B | Google Colab + Unsloth (LoRA) + Llama 3.2 3B |
 | RAG | RAG | AnythingLLM | AnythingLLM |
 | 데이터셋 | Dataset | HuggingFace Hub | HuggingFace Hub |
 | 자동화 | Automation | cron + Python 파이프라인 | cron + Python pipeline |
@@ -144,3 +145,4 @@ cravveo-100days/
 | Day 038 | [작업지시서](38일차/2026-07-04_Day038_Work_Order.md) | [업로드 문서](38일차/Day038_YouTube_Upload.md) |
 | Day 039 | [작업지시서](39일차/2026-07-07_Day039_Work_Order.md) | [업로드 문서](39일차/Day039_YouTube_Upload.md) |
 | Day 040 | [작업지시서](40일차/2026-07-08_Day040_Work_Order.md) | [업로드 문서](40일차/Day040_YouTube_Upload.md) |
+| Day 041 | [작업지시서](41일차/2026-07-09_Day041_Work_Order.md) | [업로드 문서](41일차/Day041_YouTube_Upload.md) |
