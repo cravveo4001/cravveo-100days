@@ -56,7 +56,8 @@
 | Day 040 | 날짜→Day 룩업 프로토타입 완성 + 300일 로드맵 재점검 + 불편함_기록.md 신설 | Date-lookup prototype + 300-day roadmap re-check + started pain-points log | ✅ 완료 |
 | Day 041 | 학습 데이터 오염 발견(92개 중 40개 무관) → 20개로 교체 + 재학습 → cravveo:v5 | Found training-data contamination (40/92 unrelated) → replaced with 20 clean samples + retrained → cravveo:v5 | ✅ 완료 |
 | Day 042 | v5 체계적 테스트 → 실패, 비율 조정 재시도(v6) → 더 심한 실패 → v4로 복귀 | Systematic v5 testing → failed, rebalance retry (v6) → worse failure → reverted to v4 | ✅ 완료 |
-| Day 043~ | Part 1 계속 (정체성 데이터 비율 튜닝은 보류) | Part 1 continues (identity data ratio tuning on hold) | ⏳ 예정 |
+| Day 043 | 정체성 평가세트로 v4 기준선 측정 → O 0/△ 2/X 28, 기존 버전 전부 실패 확인 | Baselined v4 with identity eval set → O 0/△ 2/X 28, confirmed all existing versions fail | ✅ 완료 |
+| Day 044~ | 기준선 기반 v7 재학습 계획 | Plan v7 retrain based on baseline | ⏳ 예정 |
 | Day 100 | Part 1 마무리 | Part 1 wrap-up | 🎯 목표 |
 
 ---
@@ -148,3 +149,4 @@ cravveo-100days/
 | Day 040 | [작업지시서](40일차/2026-07-08_Day040_Work_Order.md) | [업로드 문서](40일차/Day040_YouTube_Upload.md) |
 | Day 041 | [작업지시서](41일차/2026-07-09_Day041_Work_Order.md) | [업로드 문서](41일차/Day041_YouTube_Upload.md) |
 | Day 042 | [작업지시서](42일차/2026-07-11_Day042_Work_Order.md) | [업로드 문서](42일차/Day042_YouTube_Upload.md) |
+| Day 043 | [작업지시서](43일차/2026-07-14_Day043_Work_Order.md) | - |
