@@ -1,6 +1,7 @@
 # Day 045 YouTube Upload
 
 > 영상 파일: `45일차.mp4`
+> 코랩 노트북: https://colab.research.google.com/drive/1bUcVLTS7Y_5LTIFmJ0fHggDdo5vUnNiS?usp=sharing (44일차 노트북 재사용 — cell 4가 HuggingFace 최신 데이터를 자동으로 가져오기 때문에 가능)
 
 ---
 
@@ -56,6 +57,7 @@ It is a beginner's learning journal — including days like today, where things 
 
 GitHub: https://github.com/cravveo4001/cravveo-100days
 Model: https://huggingface.co/cravveo/cravveo-llama-lora
+Colab: https://colab.research.google.com/drive/1bUcVLTS7Y_5LTIFmJ0fHggDdo5vUnNiS?usp=sharing
 
 #Cravveo #파인튜닝 #FineTuning #Llama3 #8B #AI초보 #BuildInPublic #100일챌린지 #1인기업
 ```
