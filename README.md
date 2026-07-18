@@ -58,8 +58,8 @@
 | Day 042 | v5 체계적 테스트 → 실패, 비율 조정 재시도(v6) → 더 심한 실패 → v4로 복귀 | Systematic v5 testing → failed, rebalance retry (v6) → worse failure → reverted to v4 | ✅ 완료 |
 | Day 043 | 정체성 평가세트로 v4 기준선 측정 → O 0/△ 2/X 28, 기존 버전 전부 실패 확인 | Baselined v4 with identity eval set → O 0/△ 2/X 28, confirmed all existing versions fail | ✅ 완료 |
 | Day 044 | 정체성 데이터 80개 확장 + 8B 모델 실험 + v7 재학습 → O8/△12/X10, v4 대비 대폭 개선 | Expanded identity data to 80 + 8B model test + v7 retrain → O8/△12/X10, major improvement over v4 | ✅ 완료 |
-| Day 045 | 모델 버전 오류 수정 + 정체성 데이터 94개로 확장 + confabulation 원인 조사 | Fixed model-version error + expanded identity data to 94 + investigated confabulation cause | ✅ 완료 |
-| Day 046~ | Part 1 계속, 다음 주 v8 재학습 예정 | Part 1 continues, v8 retrain planned next week | ⏳ 예정 |
+| Day 045 | 모델 버전 오류 수정 + 정체성 데이터 94개 + v8 재학습 → O5/△5/X20, v7보다 저하 확인 | Fixed model-version error + expanded identity data to 94 + v8 retrain → O5/△5/X20, regression vs v7 | ✅ 완료 |
+| Day 046~ | Part 1 계속, 원인 보강 후 v9 재학습 예정 (cell4 로그 캡처 규칙 추가) | Part 1 continues, v9 retrain planned after root-cause hardening (added cell4 log capture rule) | ⏳ 예정 |
 | Day 100 | Part 1 마무리 | Part 1 wrap-up | 🎯 목표 |
 
 ---
