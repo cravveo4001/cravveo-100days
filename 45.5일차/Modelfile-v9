@@ -1,4 +1,4 @@
-FROM /home/c/finetuning-project/46일차/cravveo-v9.gguf
+FROM /home/c/finetuning-project/45.5일차/cravveo-v9.gguf
 TEMPLATE "질문: {{ .Prompt }}
 답변: {{ .Response }}"
 PARAMETER temperature 0.2
