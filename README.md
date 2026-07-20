@@ -59,7 +59,8 @@
 | Day 043 | 정체성 평가세트로 v4 기준선 측정 → O 0/△ 2/X 28, 기존 버전 전부 실패 확인 | Baselined v4 with identity eval set → O 0/△ 2/X 28, confirmed all existing versions fail | ✅ 완료 |
 | Day 044 | 정체성 데이터 80개 확장 + 8B 모델 실험 + v7 재학습 → O8/△12/X10, v4 대비 대폭 개선 | Expanded identity data to 80 + 8B model test + v7 retrain → O8/△12/X10, major improvement over v4 | ✅ 완료 |
 | Day 045 | 모델 버전 오류 수정 + 정체성 데이터 94개 + v8 재학습 → O5/△5/X20, v7보다 저하 확인 | Fixed model-version error + expanded identity data to 94 + v8 retrain → O5/△5/X20, regression vs v7 | ✅ 완료 |
-| Day 046~ | Part 1 계속, 원인 보강 후 v9 재학습 예정 (cell4 로그 캡처 규칙 추가) | Part 1 continues, v9 retrain planned after root-cause hardening (added cell4 log capture rule) | ⏳ 예정 |
+| Day 046 | 같은 데이터로 v9 재학습, cell4 로그 캡처 규칙 적용해 원인 격리 | Retraining v9 with the same data, applying the cell4 log-capture rule to isolate the cause | 🔄 진행중 |
+| Day 047~ | Part 1 계속 | Part 1 continues | ⏳ 예정 |
 | Day 100 | Part 1 마무리 | Part 1 wrap-up | 🎯 목표 |
 
 ---
@@ -154,3 +155,4 @@ cravveo-100days/
 | Day 043 | [작업지시서](43일차/2026-07-14_Day043_Work_Order.md) | [업로드 문서](43일차/Day043_YouTube_Upload.md) |
 | Day 044 | [작업지시서](44일차/2026-07-17_Day044_Work_Order.md) | [업로드 문서](44일차/Day044_YouTube_Upload.md) |
 | Day 045 | [작업지시서](45일차/2026-07-18_Day045_Work_Order.md) | [업로드 문서](45일차/Day045_YouTube_Upload.md) |
+| Day 046 | [작업지시서](46일차/2026-07-20_Day046_Work_Order.md) | - |
