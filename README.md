@@ -60,7 +60,8 @@
 | Day 044 | 정체성 데이터 80개 확장 + 8B 모델 실험 + v7 재학습 → O8/△12/X10, v4 대비 대폭 개선 | Expanded identity data to 80 + 8B model test + v7 retrain → O8/△12/X10, major improvement over v4 | ✅ 완료 |
 | Day 045 | 모델 버전 오류 수정 + 정체성 데이터 94개 + v8 재학습 → O5/△5/X20, v7보다 저하 확인 | Fixed model-version error + expanded identity data to 94 + v8 retrain → O5/△5/X20, regression vs v7 | ✅ 완료 |
 | Day 045.5 | (영상 없이 진행) 같은 데이터로 v9 재학습(cell4 로그 캡처 성공) → O3/△9/X18, 여전히 v7보다 저하 — 파일 업로드 실수 가설은 배제됨 | (no video, investigation session) Retrained v9 with the same data (cell4 log captured successfully) → O3/△9/X18, still worse than v7 — ruled out the file-upload-mistake hypothesis | ✅ 완료 |
-| Day 046~ | Part 1 계속, 정체성 데이터 80→94 확장 자체를 다음 조사 대상으로 | Part 1 continues, investigating the 80→94 identity data expansion itself next | ⏳ 예정 |
+| Day 046 | 정체성 데이터 80개로 되돌려 v10 재학습, "94개 확장" 가설 검증 | Reverted identity data to 80 and retrained v10 to test the "80→94 expansion" hypothesis | 🔄 진행중 |
+| Day 047~ | Part 1 계속 | Part 1 continues | ⏳ 예정 |
 | Day 100 | Part 1 마무리 | Part 1 wrap-up | 🎯 목표 |
 
 ---
@@ -156,3 +157,4 @@ cravveo-100days/
 | Day 044 | [작업지시서](44일차/2026-07-17_Day044_Work_Order.md) | [업로드 문서](44일차/Day044_YouTube_Upload.md) |
 | Day 045 | [작업지시서](45일차/2026-07-18_Day045_Work_Order.md) | [업로드 문서](45일차/Day045_YouTube_Upload.md) |
 | Day 045.5 | [작업지시서](45.5일차/2026-07-20_Day045.5_Work_Order.md) | - (영상 없음) |
+| Day 046 | [작업지시서](46일차/2026-07-22_Day046_Work_Order.md) | - |
