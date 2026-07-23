@@ -60,8 +60,8 @@
 | Day 044 | 정체성 데이터 80개 확장 + 8B 모델 실험 + v7 재학습 → O8/△12/X10, v4 대비 대폭 개선 | Expanded identity data to 80 + 8B model test + v7 retrain → O8/△12/X10, major improvement over v4 | ✅ 완료 |
 | Day 045 | 모델 버전 오류 수정 + 정체성 데이터 94개 + v8 재학습 → O5/△5/X20, v7보다 저하 확인 | Fixed model-version error + expanded identity data to 94 + v8 retrain → O5/△5/X20, regression vs v7 | ✅ 완료 |
 | Day 045.5 | (영상 없이 진행) 같은 데이터로 v9 재학습(cell4 로그 캡처 성공) → O3/△9/X18, 여전히 v7보다 저하 — 파일 업로드 실수 가설은 배제됨 | (no video, investigation session) Retrained v9 with the same data (cell4 log captured successfully) → O3/△9/X18, still worse than v7 — ruled out the file-upload-mistake hypothesis | ✅ 완료 |
-| Day 046 | 정체성 데이터 80개로 되돌려 v10 재학습, "94개 확장" 가설 검증 | Reverted identity data to 80 and retrained v10 to test the "80→94 expansion" hypothesis | 🔄 진행중 |
-| Day 047~ | Part 1 계속 | Part 1 continues | ⏳ 예정 |
+| Day 046 | 정체성 데이터 80개로 되돌려 v10 재학습 → O9/△4/X17, "94개 확장" 가설 부분 지지(O 개수는 v7 초과, 종합은 미달) | Reverted identity data to 80 and retrained v10 → O9/△4/X17, partially supports the "80→94 expansion" hypothesis (O count exceeds v7, overall still short) | ✅ 완료 |
+| Day 047~ | Part 1 계속, ablescan.app/cravveo.com 혼동 등 반복 약점 별도 대응 검토 | Part 1 continues, investigating recurring weaknesses like the ablescan.app/cravveo.com mix-up separately | ⏳ 예정 |
 | Day 100 | Part 1 마무리 | Part 1 wrap-up | 🎯 목표 |
 
 ---
